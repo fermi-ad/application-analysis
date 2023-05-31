@@ -10,7 +10,8 @@ run = {
     'greater_than_13': True,
     'greater_than_13_less_than_25k': True,
     'console_close_per_app': False,
-    'users_per_app': True
+    'users_per_app': True,
+    'unused_apps': True
 }
 
 usage = pd.read_pickle('./pickles/usage.pkl')
@@ -102,19 +103,24 @@ if run['console_close_per_app']:
 
         plt.close(fig)
 
-    
+
 if run['users_per_app']:
     plt.figure('users_per_app')
 
     # print(merged)
     user_app_count = merged.groupby(['app_id']).nunique()
     print(user_app_count)
-    user_app_count.filter().plot.bar(y='user')
+    user_app_count.plot.bar(y='user')
     plt.savefig('./plots/users_per_app.png')
 
     plt.close('users_per_app')
 
+if run['unused_apps']:
+    eq_0_clean = counts.where(counts == 0).dropna()
 
+    # print(eq_0_clean.keys())
+
+    np.savetxt('./data/unused_apps.txt', eq_0_clean.keys(), fmt='%s')
 
 
 
