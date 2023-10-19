@@ -138,6 +138,4 @@ dmypy.json
 cython_debug/
 
 .vscode
-plots
-pickles
-data
+
