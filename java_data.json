@@ -1,2783 +1,3092 @@
 [
   {
-    "id": 10000005,
-    "name": "Web Parameter Page",
-    "description": "Java Parameter Page",
     "app_type": "HTML",
-    "keeper": "Zongwei Yuan",
+    "description": "Java Parameter Page",
     "reference": "http://www-bd.fnal.gov/pp/",
-    "execution_count": null
-  },
-  {
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
     "id": 10000005,
-    "name": "Web Parameter Page",
+    "name": "Web Parameter Page"
+  },
+  {
+    "app_type": "EXCEL",
     "description": "Java Parameter Page",
-    "app_type": "EXCEL",
-    "keeper": "Zongwei Yuan",
     "reference": "http://www-bd.fnal.gov/SDAViewersServlets/ReadDevices.xls",
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 10000005,
+    "name": "Web Parameter Page"
   },
   {
-    "id": 10000006,
-    "name": "D80",
-    "description": "Web version of D80",
     "app_type": "JWS-AUTO",
+    "description": "Web version of D80",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/D80/",
+    "line_count": "24465",
+    "execution_count": 2,
     "keeper": "Zongwei Yuan",
-    "reference": "gov.fnal.controls.applications.D80.D80MainWindow",
-    "execution_count": 2
+    "id": 10000006,
+    "name": "D80"
   },
   {
-    "id": 10000006,
-    "name": "D80",
-    "description": "Web version of D80",
     "app_type": "HTML",
-    "keeper": "Zongwei Yuan",
+    "description": "Web version of D80",
     "reference": "http://www-bd.fnal.gov/webD80/read.jsp",
-    "execution_count": 2
+    "line_count": null,
+    "execution_count": 2,
+    "keeper": "Zongwei Yuan",
+    "id": 10000006,
+    "name": "D80"
   },
   {
-    "id": 10000009,
-    "name": "Early Bird Browser",
+    "app_type": "HTML",
     "description": "Early bird archive browser applet",
-    "app_type": "HTML",
-    "keeper": "Michele McCusker-Whiting",
     "reference": "http://www-bd.fnal.gov/earlybird/earlybirdbrowserapplet.html",
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Michele McCusker-Whiting",
+    "id": 10000009,
+    "name": "Early Bird Browser"
   },
   {
-    "id": 10000012,
-    "name": "Node Poll",
+    "app_type": "JWS-AUTO",
     "description": "Node Poll",
-    "app_type": "JWS-AUTO",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/NodePoll/",
+    "line_count": "3189",
+    "execution_count": 844,
     "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.fe.irm.NodePoll.NodePollFrame",
-    "execution_count": 844
+    "id": 10000012,
+    "name": "Node Poll"
   },
   {
-    "id": 10000013,
-    "name": "Notify",
+    "app_type": "JWS-AUTO",
     "description": "Notify application as the controls room sees it",
-    "app_type": "JWS-AUTO",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/notify/",
+    "line_count": "8893",
+    "execution_count": null,
     "keeper": "Michele McCusker-Whiting",
-    "reference": "gov.fnal.controls.applications.notify.MainApplet",
-    "execution_count": null
+    "id": 10000013,
+    "name": "Notify"
   },
   {
-    "id": 10000015,
-    "name": "Notify Messages",
+    "app_type": "HTML",
     "description": "Application to see messages that are entered to the notify database table",
-    "app_type": "HTML",
-    "keeper": "Michele McCusker-Whiting",
     "reference": "http://www-bd.fnal.gov/cgi-bin/notify_mes.pl",
-    "execution_count": null
-  },
-  {
-    "id": 10000016,
-    "name": "Reading Job",
-    "description": "Reading Job Application",
-    "app_type": "HTML",
-    "keeper": "Zongwei Yuan",
-    "reference": "http://www-bd.fnal.gov/ReadingJob/index.html",
-    "execution_count": null
-  },
-  {
-    "id": 10000017,
-    "name": "SDA Editor",
-    "description": "Application is used to enter and update information on cases within usage",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 10000019,
-    "name": "SDA Plot Viewer",
-    "description": "Allows to plot snapshots and fast-time-plots (FTPs) saved in SDA database",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 10000022,
-    "name": "SDB CHL status",
-    "description": "Online status of the Central Helium Liquidifier",
-    "app_type": "HTML",
-    "keeper": "Andrey Petrov",
-    "reference": "http://www-bd.fnal.gov/synoptic/display/CHL/NitrogenPlant_2",
-    "execution_count": null
-  },
-  {
-    "id": 10000023,
-    "name": "SDB Brown HEX",
-    "description": "Meson Facility Data",
-    "app_type": "HTML",
-    "keeper": "Brian Degraff",
-    "reference": "http://www-bd.fnal.gov/synoptic/display/Cryo/Meson/BrownHEX",
-    "execution_count": null
-  },
-  {
-    "id": 10000025,
-    "name": "SDB Red HEX",
-    "description": "Meson Facility Data",
-    "app_type": "HTML",
-    "keeper": "Brian Degraff",
-    "reference": "http://www-bd.fnal.gov/synoptic/display/Cryo/Meson/RedHEX",
-    "execution_count": null
-  },
-  {
-    "id": 10000026,
-    "name": "Slow Plot",
-    "description": "Slow Plot Accelerator Device....",
-    "app_type": "HTML",
-    "keeper": "Zongwei Yuan",
-    "reference": "http://www-bd.fnal.gov/synoptic/SlowPlot4.html",
-    "execution_count": null
-  },
-  {
-    "id": 15000004,
-    "name": "Chopper Timing",
-    "description": "",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.fe.irm.PreDetTiming.ChopperTiming",
-    "execution_count": 9
-  },
-  {
-    "id": 15000006,
-    "name": "SDA Intencities",
-    "description": "build on Kevin Cahill tables",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 15000007,
-    "name": "SDA Structure",
-    "description": "Structure of SDA scalars - what is collected in each case",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 15000008,
-    "name": "SDA Structure (snapshots & ftp's)",
-    "description": "Structure of SDA plot devices",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 15000009,
-    "name": "SDA Errors",
-    "description": "Errors collected during SDA  shot",
-    "app_type": "HTML",
-    "keeper": "Zongwei Yuan",
-    "reference": "http://www-bd.fnal.gov/SDAViewersServlets/SDAErrorsCount.jsp",
-    "execution_count": null
-  },
-  {
-    "id": 15000010,
-    "name": "SDA Reports",
-    "description": "",
-    "app_type": "HTML",
-    "keeper": "Zongwei Yuan",
-    "reference": "http://www-bd.fnal.gov/SDA_Viewer/SDAReport.jsp",
-    "execution_count": null
-  },
-  {
-    "id": 15000011,
-    "name": "SDA Reports MT",
-    "description": "",
-    "app_type": "HTML",
-    "keeper": "Zongwei Yuan",
-    "reference": "http://www-bd.fnal.gov/SDA_Viewer/SDAReportMT.jsp",
-    "execution_count": null
-  },
-  {
-    "id": 15000012,
-    "name": "Application Framework Example",
-    "description": "An example of AppFramework-based application",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 15000013,
-    "name": "Linac Toroids",
-    "description": "Java L11",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.fe.irm.LinacToroids.LinacToroids",
-    "execution_count": 33
-  },
-  {
-    "id": 15000014,
-    "name": "Application Index",
-    "description": "Console Application Index Browser & Launcher",
-    "app_type": "JWS-AUTO",
-    "keeper": "Andrey Petrov",
-    "reference": "gov.fnal.controls.applications.appix.browser.Browser",
-    "execution_count": 21
-  },
-  {
-    "id": 15000016,
-    "name": "Beams Division Notification",
-    "description": "Notify on the web",
-    "app_type": "HTML",
+    "line_count": null,
+    "execution_count": null,
     "keeper": "Michele McCusker-Whiting",
-    "reference": "http://www-ad.fnal.gov/notifyservlet/www",
-    "execution_count": null
+    "id": 10000015,
+    "name": "Notify Messages"
   },
   {
-    "id": 15000017,
-    "name": "Device & FFT",
-    "description": "Plots data from ACNET and makes Fast Fourier Transform",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 15000018,
-    "name": "Read Devices",
-    "description": "Read devices into EXCEL spreadsheet",
-    "app_type": "EXCEL",
-    "keeper": "Timofei Bolshakov",
-    "reference": "http://www-bd.fnal.gov/SDAViewersServlets/Nagaitsev.xls",
-    "execution_count": null
-  },
-  {
-    "id": 15000019,
-    "name": "Tevatron Lifetime SVG",
-    "description": "Tevatron Lifetimes SVG Plot. Build on derived tables.",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 15000020,
-    "name": "Proton Intensities SVG",
-    "description": "Build on derived tables.",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 15000021,
-    "name": "Proton Emittancies SVG",
-    "description": "build on derived tables",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 15000023,
-    "name": "SDA From Data Logger",
-    "description": "sda data from data logger plotter nodes",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 15000024,
-    "name": "SDA Data From Data Logger T1T2",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 15000025,
-    "name": "SDA Data From Data Logger Shots",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 15000026,
-    "name": "Synoptic",
-    "description": "Synoptic display builder and viewer",
     "app_type": "HTML",
-    "keeper": "Linden Carmichael",
-    "reference": "http://synoptic.fnal.gov/",
-    "execution_count": 6577
+    "description": "Reading Job Application",
+    "reference": "http://www-bd.fnal.gov/ReadingJob/index.html",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 10000016,
+    "name": "Reading Job"
   },
   {
-    "id": 15000026,
-    "name": "Synoptic",
-    "description": "Synoptic display builder and viewer",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.synoptix.Synoptic",
-    "execution_count": 6577
-  },
-  {
-    "id": 15000028,
-    "name": "Antiproton Emittancies SVG",
-    "description": "",
     "app_type": null,
-    "keeper": null,
+    "description": "Application is used to enter and update information on cases within usage",
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 10000017,
+    "name": "SDA Editor"
   },
   {
-    "id": 15000029,
-    "name": "Antiproton Intensities SVG",
-    "description": "",
     "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 15000030,
-    "name": "SDA Plot Viewer beta",
     "description": "Allows to plot snapshots and fast-time-plots (FTPs) saved in SDA database",
-    "app_type": null,
-    "keeper": null,
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 10000019,
+    "name": "SDA Plot Viewer"
   },
   {
-    "id": 15000031,
-    "name": "Accelerator Studies",
+    "app_type": "HTML",
+    "description": "Online status of the Central Helium Liquidifier",
+    "reference": "http://www-bd.fnal.gov/synoptic/display/CHL/NitrogenPlant_2",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Andrey Petrov",
+    "id": 10000022,
+    "name": "SDB CHL status"
+  },
+  {
+    "app_type": "HTML",
+    "description": "Meson Facility Data",
+    "reference": "http://www-bd.fnal.gov/synoptic/display/Cryo/Meson/BrownHEX",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Brian Degraff",
+    "id": 10000023,
+    "name": "SDB Brown HEX"
+  },
+  {
+    "app_type": "HTML",
+    "description": "Meson Facility Data",
+    "reference": "http://www-bd.fnal.gov/synoptic/display/Cryo/Meson/RedHEX",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Brian Degraff",
+    "id": 10000025,
+    "name": "SDB Red HEX"
+  },
+  {
+    "app_type": "HTML",
+    "description": "Slow Plot Accelerator Device....",
+    "reference": "http://www-bd.fnal.gov/synoptic/SlowPlot4.html",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 10000026,
+    "name": "Slow Plot"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/PreDetTiming/",
+    "line_count": "1563",
+    "execution_count": 9,
+    "keeper": "Kyle Hazelwood",
+    "id": 15000004,
+    "name": "Chopper Timing"
+  },
+  {
+    "app_type": null,
+    "description": "build on Kevin Cahill tables",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 15000006,
+    "name": "SDA Intencities"
+  },
+  {
+    "app_type": null,
+    "description": "Structure of SDA scalars - what is collected in each case",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 15000007,
+    "name": "SDA Structure"
+  },
+  {
+    "app_type": null,
+    "description": "Structure of SDA plot devices",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 15000008,
+    "name": "SDA Structure (snapshots & ftp's)"
+  },
+  {
+    "app_type": "HTML",
+    "description": "Errors collected during SDA  shot",
+    "reference": "http://www-bd.fnal.gov/SDAViewersServlets/SDAErrorsCount.jsp",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 15000009,
+    "name": "SDA Errors"
+  },
+  {
+    "app_type": "HTML",
+    "description": "",
+    "reference": "http://www-bd.fnal.gov/SDA_Viewer/SDAReport.jsp",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 15000010,
+    "name": "SDA Reports"
+  },
+  {
+    "app_type": "HTML",
+    "description": "",
+    "reference": "http://www-bd.fnal.gov/SDA_Viewer/SDAReportMT.jsp",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 15000011,
+    "name": "SDA Reports MT"
+  },
+  {
+    "app_type": null,
+    "description": "An example of AppFramework-based application",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 15000012,
+    "name": "Application Framework Example"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Java L11",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/LinacToroids/",
+    "line_count": "395",
+    "execution_count": 33,
+    "keeper": "Kyle Hazelwood",
+    "id": 15000013,
+    "name": "Linac Toroids"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Console Application Index Browser & Launcher",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/appix/browser/",
+    "line_count": "1054",
+    "execution_count": 21,
+    "keeper": "Andrey Petrov",
+    "id": 15000014,
+    "name": "Application Index"
+  },
+  {
+    "app_type": "HTML",
+    "description": "Notify on the web",
+    "reference": "http://www-ad.fnal.gov/notifyservlet/www",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Michele McCusker-Whiting",
+    "id": 15000016,
+    "name": "Beams Division Notification"
+  },
+  {
+    "app_type": null,
+    "description": "Plots data from ACNET and makes Fast Fourier Transform",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 15000017,
+    "name": "Device & FFT"
+  },
+  {
+    "app_type": "EXCEL",
+    "description": "Read devices into EXCEL spreadsheet",
+    "reference": "http://www-bd.fnal.gov/SDAViewersServlets/Nagaitsev.xls",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Timofei Bolshakov",
+    "id": 15000018,
+    "name": "Read Devices"
+  },
+  {
+    "app_type": null,
+    "description": "Tevatron Lifetimes SVG Plot. Build on derived tables.",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 15000019,
+    "name": "Tevatron Lifetime SVG"
+  },
+  {
+    "app_type": null,
+    "description": "Build on derived tables.",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 15000020,
+    "name": "Proton Intensities SVG"
+  },
+  {
+    "app_type": null,
+    "description": "build on derived tables",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 15000021,
+    "name": "Proton Emittancies SVG"
+  },
+  {
+    "app_type": null,
+    "description": "sda data from data logger plotter nodes",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 15000023,
+    "name": "SDA From Data Logger"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 15000024,
+    "name": "SDA Data From Data Logger T1T2"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 15000025,
+    "name": "SDA Data From Data Logger Shots"
+  },
+  {
+    "app_type": "HTML",
+    "description": "Synoptic display builder and viewer",
+    "reference": "http://synoptic.fnal.gov/",
+    "line_count": null,
+    "execution_count": 6577,
+    "keeper": "Linden Carmichael",
+    "id": 15000026,
+    "name": "Synoptic"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Synoptic display builder and viewer",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/synoptix/",
+    "line_count": "276",
+    "execution_count": 6577,
+    "keeper": "Linden Carmichael",
+    "id": 15000026,
+    "name": "Synoptic"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 15000028,
+    "name": "Antiproton Emittancies SVG"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 15000029,
+    "name": "Antiproton Intensities SVG"
+  },
+  {
+    "app_type": null,
+    "description": "Allows to plot snapshots and fast-time-plots (FTPs) saved in SDA database",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 15000030,
+    "name": "SDA Plot Viewer beta"
+  },
+  {
+    "app_type": null,
     "description": "Accelerator Studies Application: allows users to run accelerator studies. A study is composed of a list of actuators and responders, to which values are set and read. The user defines the functions, number of points and interval between sets and reads",
-    "app_type": null,
-    "keeper": null,
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 15000031,
+    "name": "Accelerator Studies"
   },
   {
-    "id": 15000034,
-    "name": "SDA Shot Summary",
+    "app_type": null,
     "description": "Information about shot from different sources collected on one page",
-    "app_type": null,
-    "keeper": null,
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 15000034,
+    "name": "SDA Shot Summary"
   },
   {
-    "id": 15000035,
-    "name": "Lowbeta Qpm",
+    "app_type": null,
     "description": "GUI for the Quench Protection Monitors for the Low Beta Quadrupole magnets",
-    "app_type": null,
-    "keeper": null,
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 15000035,
+    "name": "Lowbeta Qpm"
   },
   {
-    "id": 15000036,
-    "name": "FSM Builder",
+    "app_type": "JWS-AUTO",
     "description": "Finite State Machine Builder",
-    "app_type": "JWS-AUTO",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/FsmBuilder/",
+    "line_count": "14132",
+    "execution_count": null,
     "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.FsmBuilder.FsmBuilder",
-    "execution_count": null
+    "id": 15000036,
+    "name": "FSM Builder"
   },
   {
-    "id": 15000037,
-    "name": "FSM Display",
+    "app_type": "JWS-AUTO",
     "description": "Finite State Machine Launcher",
-    "app_type": "JWS-AUTO",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/FsmDisposition/",
+    "line_count": "6602",
+    "execution_count": null,
     "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.FsmDisposition.FsmDisposition",
-    "execution_count": null
+    "id": 15000037,
+    "name": "FSM Display"
   },
   {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
     "id": 20000006,
-    "name": "Pbar Vacuum Plotting",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
+    "name": "Pbar Vacuum Plotting"
   },
   {
-    "id": 20000007,
-    "name": "SDA Edit Audit",
+    "app_type": null,
     "description": "Allows a user to view recently added data to the SDA tables as well as see an entire list for a usage",
-    "app_type": null,
-    "keeper": null,
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 20000007,
+    "name": "SDA Edit Audit"
   },
   {
-    "id": 20000008,
-    "name": "Tevatron Array Display",
+    "app_type": null,
     "description": "Live lists and graphs of bunch-by-bunch data for protons and antiprotons.",
-    "app_type": null,
-    "keeper": null,
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 20000008,
+    "name": "Tevatron Array Display"
   },
   {
-    "id": 20000009,
-    "name": "Settings Log",
+    "app_type": null,
     "description": "Show Setting records.Similar to D54.",
-    "app_type": null,
-    "keeper": null,
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 20000009,
+    "name": "Settings Log"
   },
   {
+    "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/LinacModulatorTransRec/",
+    "line_count": "1494",
+    "execution_count": 45,
+    "keeper": "John Diamond",
     "id": 20000010,
-    "name": "Linac Modulator Trans. Rec.",
-    "description": "",
-    "app_type": "JWS-AUTO",
-    "keeper": "John Diamond",
-    "reference": "gov.fnal.controls.applications.LinacModulatorTransRec.LinacModulatorTransRec",
-    "execution_count": 45
+    "name": "Linac Modulator Trans. Rec."
   },
   {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
     "id": 20000011,
-    "name": "Booster Monitor",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
+    "name": "Booster Monitor"
   },
   {
-    "id": 20000012,
-    "name": "SDA Derived Tables",
+    "app_type": "HTML",
     "description": "Include: lifetime, intensity, emittance, and integrated luminosiyt. They are automatically generated for each store, in addition they can be built on request. Most tables include a plot of the most important values at the top of the page.",
-    "app_type": "HTML",
-    "keeper": "Suzanne Gysin",
     "reference": "http://hepjava1.fnal.gov/OSDA/TableMaker.jsp",
-    "execution_count": null
-  },
-  {
-    "id": 20000013,
-    "name": "Store Checker",
-    "description": "The program to validate the store and notify people of errors.",
-    "app_type": "HTML",
+    "line_count": null,
+    "execution_count": null,
     "keeper": "Suzanne Gysin",
+    "id": 20000012,
+    "name": "SDA Derived Tables"
+  },
+  {
+    "app_type": "HTML",
+    "description": "The program to validate the store and notify people of errors.",
     "reference": "http://www-bd.fnal.gov/javaapplications/html_write/StoreChecker/",
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Suzanne Gysin",
+    "id": 20000013,
+    "name": "Store Checker"
   },
   {
-    "id": 20000015,
-    "name": "Booster BPM Diagnostic",
+    "app_type": null,
     "description": "GUI for the Booster BPM Test Interface Modules",
-    "app_type": null,
-    "keeper": null,
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 20000015,
+    "name": "Booster BPM Diagnostic"
   },
   {
-    "id": 20000016,
-    "name": "Java Parameter Page Lite",
+    "app_type": "JWS-AUTO",
     "description": "Java Parameter Page without DAE support.",
-    "app_type": "JWS-AUTO",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/jpp/",
+    "line_count": "1326",
+    "execution_count": 9,
     "keeper": "Andrey Petrov",
-    "reference": "gov.fnal.controls.applications.jpp.JPP",
-    "execution_count": 9
+    "id": 20000016,
+    "name": "Java Parameter Page Lite"
   },
   {
-    "id": 20000017,
-    "name": "SDB Adsorber",
-    "description": "Meson Facility Data",
     "app_type": "HTML",
-    "keeper": "Brian Degraff",
+    "description": "Meson Facility Data",
     "reference": "http://www-bd.fnal.gov/synoptic/display/Cryo/Meson/Adsorber",
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Brian Degraff",
+    "id": 20000017,
+    "name": "SDB Adsorber"
   },
   {
-    "id": 20000018,
-    "name": "SDB Compressor Room",
-    "description": "Meson Facility Data",
     "app_type": "HTML",
-    "keeper": "Brian Degraff",
+    "description": "Meson Facility Data",
     "reference": "http://www-bd.fnal.gov/synoptic/display/Cryo/Meson/CompressorRoom",
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Brian Degraff",
+    "id": 20000018,
+    "name": "SDB Compressor Room"
   },
   {
-    "id": 20000019,
-    "name": "SDB Dewars",
-    "description": "Meson Facility Data",
     "app_type": "HTML",
-    "keeper": "Brian Degraff",
+    "description": "Meson Facility Data",
     "reference": "http://www-bd.fnal.gov/synoptic/display/Cryo/Meson/Dewars",
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Brian Degraff",
+    "id": 20000019,
+    "name": "SDB Dewars"
   },
   {
-    "id": 20000020,
-    "name": "SDB Vacuum Pumps",
+    "app_type": "HTML",
     "description": "Meson Facility Data",
-    "app_type": "HTML",
-    "keeper": "Brian Degraff",
     "reference": "http://www-bd.fnal.gov/synoptic/display/Cryo/Meson/VacuumPumps",
-    "execution_count": null
-  },
-  {
-    "id": 20000021,
-    "name": "SDA Supertable",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 20000022,
-    "name": "TCLK Diagnistics",
-    "description": "TCLK diagnostics",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 20000023,
-    "name": "Autotune",
-    "description": "Autotune application (MiniBooNE, Electron cooling, NuMI)",
-    "app_type": "JWS-AUTO",
-    "keeper": "John DeVoy",
-    "reference": "gov.fnal.controls.applications.autotune.Autotune",
-    "execution_count": 1692
-  },
-  {
-    "id": 20000024,
-    "name": "Booster Magnet Move",
-    "description": "Move Booster Magnets and plot beam orbit",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.Booster.MagnetMove.MagnetMove",
-    "execution_count": 1
-  },
-  {
-    "id": 20000025,
-    "name": "SDA Viewer IV",
-    "description": "New thinlet based version of SDA Viewer",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 20000027,
-    "name": "Parameter Page (Florian)",
-    "description": "",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.fe.irm.ParamPage.ParamPageFrame",
-    "execution_count": 2
-  },
-  {
-    "id": 20000028,
-    "name": "Fast Time Plot",
-    "description": "FTP and SNP plotting program.",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.fe.irm.FastTimePlot.FTPFrame",
-    "execution_count": 30
-  },
-  {
-    "id": 20000029,
-    "name": "Cryogenic maintenance",
-    "description": "Cryogenic maintenance database editing",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 20000030,
-    "name": "Cold Compressors maintenance",
-    "description": "Cryo maintenance database editing",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 20000031,
-    "name": "Cryo Data Logger extractor",
-    "description": "Does same things as Data Logger Plotter, but leaves only lines with all devices on it for some timestamp",
-    "app_type": "JWS-AUTO",
-    "keeper": "Zongwei Yuan",
-    "reference": "gov.fnal.controls.applications.thinlet.CryoDLP.CryoDLP",
-    "execution_count": null
-  },
-  {
-    "id": 20000031,
-    "name": "Cryo Data Logger extractor",
-    "description": "Does same things as Data Logger Plotter, but leaves only lines with all devices on it for some timestamp",
-    "app_type": "JWS-MANUAL",
-    "keeper": "Zongwei Yuan",
-    "reference": "http://www-bd.fnal.gov/D44/cryodlp.jnlp",
-    "execution_count": null
-  },
-  {
-    "id": 20000031,
-    "name": "Cryo Data Logger extractor",
-    "description": "Does same things as Data Logger Plotter, but leaves only lines with all devices on it for some timestamp",
-    "app_type": "HTML",
-    "keeper": "Zongwei Yuan",
-    "reference": "http://www-bd.fnal.gov/D44/DLPCryo.html",
-    "execution_count": null
-  },
-  {
-    "id": 20000032,
-    "name": "Thinlets-based Data Logger Plotter",
-    "description": "",
-    "app_type": "HTML",
-    "keeper": "Zongwei Yuan",
-    "reference": "http://www-bd.fnal.gov/D44/D44ControlPanel.html",
-    "execution_count": null
-  },
-  {
-    "id": 20000032,
-    "name": "Thinlets-based Data Logger Plotter",
-    "description": "",
-    "app_type": "JWS-MANUAL",
-    "keeper": "Zongwei Yuan",
-    "reference": "http://www-bd.fnal.gov/D44/d44cp.jnlp",
-    "execution_count": null
-  },
-  {
-    "id": 20000032,
-    "name": "Thinlets-based Data Logger Plotter",
-    "description": "",
-    "app_type": "JWS-AUTO",
-    "keeper": "Zongwei Yuan",
-    "reference": "gov.fnal.controls.applications.thinlet.D44.D44ControlPanel",
-    "execution_count": null
-  },
-  {
-    "id": 20000033,
-    "name": "Simple Optics",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 20000034,
-    "name": "Lookup Vac",
-    "description": "Accelerator vacuum display",
-    "app_type": "JWS-AUTO",
-    "keeper": "Yuri Ivanov",
-    "reference": "gov.fnal.controls.applications.LookupVac.LookupVac",
-    "execution_count": null
-  },
-  {
-    "id": 20000035,
-    "name": "Array Data Logger Plotter",
-    "description": "Same as TevArrayDisplay for Data Loggers",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 20000036,
-    "name": "Tev Clock Info",
-    "description": "Displays TCLK Events in sequence.",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.fe.irm.TevClockInfo.TevClockInfo",
-    "execution_count": 25
-  },
-  {
-    "id": 20000038,
-    "name": "Tevatron TempHum",
-    "description": "Display of Tev Service Building Temperatur and Humidity",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 20000039,
-    "name": "Tevatron Chromaticity",
-    "description": "Measure the Chromaticity by changing the r.f. Frequency and recording the corresponding change of Tune, using the the Tune",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 20000040,
-    "name": "SLD Statistics",
-    "description": "Serial Link Driver statistics",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 20000041,
-    "name": "CryoDaemon",
-    "description": "Cryogenic ACNET-APACS bridge with XML-RPC",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 20000042,
-    "name": "SettingExample",
-    "description": "Example reading and setting",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 20000043,
-    "name": "Helium Loss Report",
-    "description": "Shows the monthly helium loss",
-    "app_type": "JWS-AUTO",
-    "keeper": "Zongwei Yuan",
-    "reference": "gov.fnal.controls.applications.HeliumLossControl.Thinlet.HLCThinletWindow",
-    "execution_count": null
-  },
-  {
-    "id": 20000043,
-    "name": "Helium Loss Report",
-    "description": "Shows the monthly helium loss",
-    "app_type": "HTML",
-    "keeper": "Zongwei Yuan",
-    "reference": "http://www-bd.fnal.gov/webhlc/hlc.html",
-    "execution_count": null
-  },
-  {
-    "id": 20000044,
-    "name": "BPM Viewer",
-    "description": "Tevatron BPM Viewer for SDA data",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 20000045,
-    "name": "Recalculated Emittancies Table",
-    "description": "Recomputed emittancies for SDA shot",
-    "app_type": "HTML",
-    "keeper": "Timofei Bolshakov",
-    "reference": "http://www-bd.fnal.gov/SDA_Viewer/shot_emittances_catalog.jsp",
-    "execution_count": null
-  },
-  {
-    "id": 25000011,
-    "name": "Tevatron Mountain Range Display",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 25000012,
-    "name": "Damper",
-    "description": "Damper programm written for Dennis Niclaus",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 30000013,
-    "name": "Collider Ramp Generator",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 35000012,
-    "name": "Damper Array Editor",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 35000013,
-    "name": "DamperWithSettings",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 35000023,
-    "name": "Page G",
-    "description": "CRT image",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.fe.irm.PageG.PageG",
-    "execution_count": 1
-  },
-  {
-    "id": 35000024,
-    "name": "Framework DAE Test",
-    "description": "A small program to test Application Framework",
-    "app_type": "STDALONE",
-    "keeper": "Andrey Petrov",
-    "reference": "gov.fnal.controls.framework.examples.FrameworkDaeTest",
-    "execution_count": 1
-  },
-  {
-    "id": 35000024,
-    "name": "Framework DAE Test",
-    "description": "A small program to test Application Framework",
-    "app_type": "JWS-AUTO",
-    "keeper": "Andrey Petrov",
-    "reference": "gov.fnal.controls.framework.examples.FrameworkDaeTest",
-    "execution_count": 1
-  },
-  {
-    "id": 35000026,
-    "name": "PetriNet Display",
-    "description": "",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.PetriNetDisposition.PetriNetDisposition",
-    "execution_count": null
-  },
-  {
-    "id": 35000027,
-    "name": "PetriNet Builder",
-    "description": "",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.PetriNetBuilder.PetriNetBuilder",
-    "execution_count": null
-  },
-  {
-    "id": 35000153,
-    "name": "BCC Display",
-    "description": "",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.fe.irm.BCCDisplay.BCCDisplay",
-    "execution_count": null
-  },
-  {
-    "id": 35000158,
-    "name": "Pbar Debuncher BPM Program",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 35000162,
-    "name": "Tev Dipole Plotter",
-    "description": "This program reads a file generated by the tev sequencer and plots the tev dipoles currents up the ramp or through the squeeze.  It also has the capability to set up filters for minimum current or slew rate thresholds for easier reading of the plots.",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 35000200,
-    "name": "Linac RF Graphics",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 35000298,
-    "name": "IRM Timer Display",
-    "description": "Displays IRM Timer information",
-    "app_type": "JWS-AUTO",
-    "keeper": "Robert Florian",
-    "reference": "gov.fnal.controls.fe.irm.TimerDisplay.TimerDisplay",
-    "execution_count": null
-  },
-  {
-    "id": 35000368,
-    "name": "ECool Display",
-    "description": "Monitors ECool Devices",
-    "app_type": "JWS-AUTO",
-    "keeper": "Robert Florian",
-    "reference": "gov.fnal.controls.fe.irm.ECoolDisplay.ECoolDisplay",
-    "execution_count": null
-  },
-  {
-    "id": 35000378,
-    "name": "Acnet Level II Functions",
-    "description": "Provide Acnet Level II Statistics Functions that Available in VMS application D38",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 35000379,
-    "name": "NodeManager",
-    "description": "Manage acnet node table,derived from VMS D92 and D98",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 35000384,
-    "name": "ECool Correctors Response",
-    "description": "Program to collect and store BPM reaction on correctors changes",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 35000386,
-    "name": "Waveform Generator",
-    "description": "Generates timetable changes for the list of devices",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 35000388,
-    "name": "PID Control Loop",
-    "description": "Try to implement Proportional/Derivative/Integral control Loop for Cryo Meson facility",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 35000389,
-    "name": "Meson APACS / ACNET Map",
-    "description": "Editor for DB table of APACS to ACNET devices map",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 35000390,
-    "name": "Mucool APACS / ACNET map",
-    "description": "Editor for DB table of mucool APACS to ACNET device mapping",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 35000411,
-    "name": "Damper Control Panel",
-    "description": "Damper Control Panel",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 40000035,
-    "name": "ECool Calibrator",
-    "description": "Functionality of several other programs collected in one place",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 40000036,
-    "name": "Beam Orbits",
-    "description": "3D display",
-    "app_type": "JWS-AUTO",
-    "keeper": "Robert Florian",
-    "reference": "gov.fnal.controls.fe.irm.BeamOrbits.BeamOrbits",
-    "execution_count": null
-  },
-  {
-    "id": 40000046,
-    "name": "TeV QPM",
-    "description": "GUI for the Tevatron Quench Protection Monitors",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 40000049,
-    "name": "Beam Pos3D",
-    "description": "Display beam in 3D",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 40000080,
-    "name": "ECool Beam Shape / Size Measurement",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 40000117,
-    "name": "BLM Viewer",
-    "description": "View Tevatron BLM data from SDA",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 40000131,
-    "name": "Pbar Kicker Timing",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 40000132,
-    "name": "400 MeV Line BPM Display",
-    "description": "",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.display400mevlinebpm.Display400MevLineBPM",
-    "execution_count": 124
-  },
-  {
-    "id": 40000134,
-    "name": "QuickSilver Motor Control",
-    "description": "Controls QuickSilver Motor",
-    "app_type": "JWS-AUTO",
-    "keeper": "Robert Florian",
-    "reference": "gov.fnal.controls.fe.irm.MotorControl.MotorControlMain",
-    "execution_count": null
-  },
-  {
-    "id": 40000136,
-    "name": "Data Browser",
-    "description": "Combines parameter page browser and plot viewer (for FTP and snapshots). Uses secure (based on the Kerberos) connection to an SCF data server.",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 40000138,
-    "name": "Linac Beam Scrapper",
-    "description": "",
-    "app_type": "JWS-AUTO",
-    "keeper": "Robert Florian",
-    "reference": "gov.fnal.controls.fe.irm.BeamScrapper.BeamScrapper",
-    "execution_count": null
-  },
-  {
-    "id": 40000147,
-    "name": "Batch Data Logger Extractor",
-    "description": "Extract several devices into text format",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 50000028,
-    "name": "Scheduler Viewer",
-    "description": "Graphical view of TLG timelines and LLRF states",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.SchedulerViewer.SchedulerViewer",
-    "execution_count": null
-  },
-  {
-    "id": 50000070,
-    "name": "NTF Chair",
-    "description": "NTF Application",
-    "app_type": "JWS-AUTO",
-    "keeper": "Robert Florian",
-    "reference": "gov.fnal.controls.fe.irm.NTFChair.ChairControl",
-    "execution_count": null
-  },
-  {
-    "id": 50000166,
-    "name": "Pbar Tune Calculator",
-    "description": "Calculate and Plot Pbar tunes based on readings read manually from spectrum analyzers",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 50000173,
-    "name": "Web Setting Log",
-    "description": "",
-    "app_type": "HTML",
-    "keeper": "Zongwei Yuan",
-    "reference": "http://www-bd.fnal.gov/websetting/setting.html",
-    "execution_count": null
-  },
-  {
-    "id": 50000174,
-    "name": "Paint Aperture",
-    "description": "",
-    "app_type": "JWS-AUTO",
-    "keeper": "Vladimir Nagaslaev",
-    "reference": "gov.fnal.controls.applications.paint_ap.PaintAp",
-    "execution_count": null
-  },
-  {
-    "id": 50000192,
-    "name": "Pbar Debuncher Beam Prep",
-    "description": "Prepares beam for Debuncher Studies",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 50000193,
-    "name": "Pbar Debuncher Component Centering",
-    "description": "Centers devices about the beam to maximize aperture",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 50000212,
-    "name": "Recomputed Intensities",
-    "description": "Web catalog for recomputed intensities and aid to rebuild them",
-    "app_type": "HTML",
-    "keeper": "Zongwei Yuan",
-    "reference": "http://www-bd.fnal.gov/SDA_Viewer/shot_intensities_catalog.jsp",
-    "execution_count": null
-  },
-  {
-    "id": 50000213,
-    "name": "Supertable IV Comments Editor",
-    "description": "Allow to insert comments into Supertable IV main DB table",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 50000214,
-    "name": "SBD and FBI Calibration reports",
-    "description": "Reports from SBDCAL OAC",
-    "app_type": "HTML",
-    "keeper": "Timofei Bolshakov",
-    "reference": "http://www-bd.fnal.gov/SDA_Viewer/sbdcal_catalog.jsp",
-    "execution_count": null
-  },
-  {
-    "id": 50000215,
-    "name": "Supertable IV Views",
-    "description": "The new Supertable IV table in different formats",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000150,
-    "name": "Tev PS Status and Control",
-    "description": "Tevatron Power Supplies",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000153,
-    "name": "A0 Helium Recovery Report",
-    "description": "",
-    "app_type": "HTML",
-    "keeper": "Andrey Petrov",
-    "reference": "http://www-bd.fnal.gov/herec/report",
-    "execution_count": null
-  },
-  {
-    "id": 55000156,
-    "name": "Java Analysis Studio",
-    "description": "Starting FreeHEP's Java Analysis Studio (JAS) through Java Web Start without opening any particular project.",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000157,
-    "name": "Pbar Accum Calc and Plot Tunes",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000159,
-    "name": "Pelletron Mode Controller",
-    "description": "Application configures Pelletron for different modes.",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000172,
-    "name": "MARV",
-    "description": "Mobile device",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000193,
-    "name": "Debuncher Ibeam Plot",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000244,
-    "name": "ShottkyApp",
-    "description": "client application to control Shottky OAC",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000245,
-    "name": "Debuncher Cooling Time",
-    "description": "Setup and Measure Cooling times in Debuncher",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000247,
-    "name": "Beam Scrapper",
-    "description": "Moves Paddel in Beam Pipe",
-    "app_type": "JWS-AUTO",
-    "keeper": "Robert Florian",
-    "reference": "gov.fnal.controls.fe.irm.BeamScrapper.BeamScrapper",
-    "execution_count": null
-  },
-  {
-    "id": 55000249,
-    "name": "Pbar Performance Plots",
-    "description": "Summary plots of antiproton stacking",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000250,
-    "name": "Booster RAD Monitor Display",
-    "description": "Display old Booster Radiation Monitors",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000251,
-    "name": "Booster Humidity Tracker",
-    "description": "Track Booster tunnel humidity",
-    "app_type": "JWS-AUTO",
-    "keeper": "Yuri Ivanov",
-    "reference": "gov.fnal.controls.applications.Booster.HumidityTracker.HumidityTracker",
-    "execution_count": 9
-  },
-  {
-    "id": 55000252,
-    "name": "SA1 Video Out",
-    "description": "Pbar SA1 Video Out",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000253,
-    "name": "Synclite Monitor",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000254,
-    "name": "ECool Mult Panel",
-    "description": "Mult Panel for ECool",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000259,
-    "name": "Debuncher Bunch Rotation",
-    "description": "Performance Measures for Debuncher Bunch Rotation",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000260,
-    "name": "TL Meson",
-    "description": "",
-    "app_type": "HTML",
+    "line_count": null,
+    "execution_count": null,
     "keeper": "Brian Degraff",
-    "reference": "http://www-bd.fnal.gov/synoptic/display/Cryo/Meson/TL_Meson",
-    "execution_count": null
+    "id": 20000020,
+    "name": "SDB Vacuum Pumps"
   },
   {
-    "id": 55000261,
-    "name": "Pbar Global Health",
-    "description": "",
     "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000263,
-    "name": "Pbar Beamlines BPM Program",
     "description": "",
-    "app_type": null,
-    "keeper": null,
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 20000021,
+    "name": "SDA Supertable"
   },
   {
-    "id": 55000264,
-    "name": "Acnet Console on Linux",
-    "description": "On-line reading access to the accelerator control system",
+    "app_type": null,
+    "description": "TCLK diagnostics",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 20000022,
+    "name": "TCLK Diagnistics"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Autotune application (MiniBooNE, Electron cooling, NuMI)",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/autotune/",
+    "line_count": "11246",
+    "execution_count": 1692,
+    "keeper": "John DeVoy",
+    "id": 20000023,
+    "name": "Autotune"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Move Booster Magnets and plot beam orbit",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/Booster/MagnetMove/",
+    "line_count": "3198",
+    "execution_count": 1,
+    "keeper": "Linden Carmichael",
+    "id": 20000024,
+    "name": "Booster Magnet Move"
+  },
+  {
+    "app_type": null,
+    "description": "New thinlet based version of SDA Viewer",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 20000025,
+    "name": "SDA Viewer IV"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/ParamPage/",
+    "line_count": "6739",
+    "execution_count": 2,
+    "keeper": "Kyle Hazelwood",
+    "id": 20000027,
+    "name": "Parameter Page (Florian)"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "FTP and SNP plotting program.",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/FastTimePlot/",
+    "line_count": "19498",
+    "execution_count": 30,
+    "keeper": "Kyle Hazelwood",
+    "id": 20000028,
+    "name": "Fast Time Plot"
+  },
+  {
+    "app_type": null,
+    "description": "Cryogenic maintenance database editing",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 20000029,
+    "name": "Cryogenic maintenance"
+  },
+  {
+    "app_type": null,
+    "description": "Cryo maintenance database editing",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 20000030,
+    "name": "Cold Compressors maintenance"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Does same things as Data Logger Plotter, but leaves only lines with all devices on it for some timestamp",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/thinlet/CryoDLP/",
+    "line_count": "0",
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 20000031,
+    "name": "Cryo Data Logger extractor"
+  },
+  {
+    "app_type": "JWS-MANUAL",
+    "description": "Does same things as Data Logger Plotter, but leaves only lines with all devices on it for some timestamp",
+    "reference": "http://www-bd.fnal.gov/D44/cryodlp.jnlp",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 20000031,
+    "name": "Cryo Data Logger extractor"
+  },
+  {
     "app_type": "HTML",
+    "description": "Does same things as Data Logger Plotter, but leaves only lines with all devices on it for some timestamp",
+    "reference": "http://www-bd.fnal.gov/D44/DLPCryo.html",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 20000031,
+    "name": "Cryo Data Logger extractor"
+  },
+  {
+    "app_type": "HTML",
+    "description": "",
+    "reference": "http://www-bd.fnal.gov/D44/D44ControlPanel.html",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 20000032,
+    "name": "Thinlets-based Data Logger Plotter"
+  },
+  {
+    "app_type": "JWS-MANUAL",
+    "description": "",
+    "reference": "http://www-bd.fnal.gov/D44/d44cp.jnlp",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 20000032,
+    "name": "Thinlets-based Data Logger Plotter"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/thinlet/D44/",
+    "line_count": "2834",
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 20000032,
+    "name": "Thinlets-based Data Logger Plotter"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 20000033,
+    "name": "Simple Optics"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Accelerator vacuum display",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/LookupVac/",
+    "line_count": "12008",
+    "execution_count": null,
+    "keeper": "Yuri Ivanov",
+    "id": 20000034,
+    "name": "Lookup Vac"
+  },
+  {
+    "app_type": null,
+    "description": "Same as TevArrayDisplay for Data Loggers",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 20000035,
+    "name": "Array Data Logger Plotter"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Displays TCLK Events in sequence.",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/TevClockInfo/",
+    "line_count": "3055",
+    "execution_count": 25,
+    "keeper": "Kyle Hazelwood",
+    "id": 20000036,
+    "name": "Tev Clock Info"
+  },
+  {
+    "app_type": null,
+    "description": "Display of Tev Service Building Temperatur and Humidity",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 20000038,
+    "name": "Tevatron TempHum"
+  },
+  {
+    "app_type": null,
+    "description": "Measure the Chromaticity by changing the r.f. Frequency and recording the corresponding change of Tune, using the the Tune",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 20000039,
+    "name": "Tevatron Chromaticity"
+  },
+  {
+    "app_type": null,
+    "description": "Serial Link Driver statistics",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 20000040,
+    "name": "SLD Statistics"
+  },
+  {
+    "app_type": null,
+    "description": "Cryogenic ACNET-APACS bridge with XML-RPC",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 20000041,
+    "name": "CryoDaemon"
+  },
+  {
+    "app_type": null,
+    "description": "Example reading and setting",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 20000042,
+    "name": "SettingExample"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Shows the monthly helium loss",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/HeliumLossControl/Thinlet/",
+    "line_count": "11381",
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 20000043,
+    "name": "Helium Loss Report"
+  },
+  {
+    "app_type": "HTML",
+    "description": "Shows the monthly helium loss",
+    "reference": "http://www-bd.fnal.gov/webhlc/hlc.html",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 20000043,
+    "name": "Helium Loss Report"
+  },
+  {
+    "app_type": null,
+    "description": "Tevatron BPM Viewer for SDA data",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 20000044,
+    "name": "BPM Viewer"
+  },
+  {
+    "app_type": "HTML",
+    "description": "Recomputed emittancies for SDA shot",
+    "reference": "http://www-bd.fnal.gov/SDA_Viewer/shot_emittances_catalog.jsp",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Timofei Bolshakov",
+    "id": 20000045,
+    "name": "Recalculated Emittancies Table"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 25000011,
+    "name": "Tevatron Mountain Range Display"
+  },
+  {
+    "app_type": null,
+    "description": "Damper programm written for Dennis Niclaus",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 25000012,
+    "name": "Damper"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 30000013,
+    "name": "Collider Ramp Generator"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 35000012,
+    "name": "Damper Array Editor"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 35000013,
+    "name": "DamperWithSettings"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "CRT image",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/PageG/",
+    "line_count": "991",
+    "execution_count": 1,
+    "keeper": "Kyle Hazelwood",
+    "id": 35000023,
+    "name": "Page G"
+  },
+  {
+    "app_type": "STDALONE",
+    "description": "A small program to test Application Framework",
+    "reference": "/usr/local/dae/gov/fnal/controls/framework/examples/",
+    "line_count": "1000",
+    "execution_count": 1,
     "keeper": "Andrey Petrov",
-    "reference": "http://www-bd.fnal.gov/controls/public/linux-console.html",
-    "execution_count": null
+    "id": 35000024,
+    "name": "Framework DAE Test"
   },
   {
-    "id": 55000264,
-    "name": "Acnet Console on Linux",
-    "description": "On-line reading access to the accelerator control system",
     "app_type": "JWS-AUTO",
+    "description": "A small program to test Application Framework",
+    "reference": "/usr/local/dae/gov/fnal/controls/framework/examples/",
+    "line_count": "1000",
+    "execution_count": 1,
     "keeper": "Andrey Petrov",
-    "reference": "gov.fnal.controls.applications.dash.Dashboard",
-    "execution_count": null
+    "id": 35000024,
+    "name": "Framework DAE Test"
   },
   {
-    "id": 55000265,
-    "name": "Pbar Aperture Scan",
-    "description": "Define touch and extinction points in Aperture Scans",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000270,
-    "name": "JCVS",
-    "description": "*",
     "app_type": "JWS-AUTO",
-    "keeper": "Denise Finstrom",
-    "reference": "com.ice.jcvsii.JCVS",
-    "execution_count": null
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/PetriNetDisposition/",
+    "line_count": "5559",
+    "execution_count": null,
+    "keeper": "Linden Carmichael",
+    "id": 35000026,
+    "name": "PetriNet Display"
   },
   {
-    "id": 55000277,
-    "name": "Display Pbar SA Data",
-    "description": "Display Logged Pbar Spectrum Analyzer Data",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000292,
-    "name": "Events Data Logger",
-    "description": "Collects Data Logger data in time when some state device has distinct value",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 55000298,
-    "name": "IPMviewer",
-    "description": "Debuncher IPM Viewer",
     "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/PetriNetBuilder/",
+    "line_count": "2400",
+    "execution_count": null,
+    "keeper": "Linden Carmichael",
+    "id": 35000027,
+    "name": "PetriNet Builder"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/BCCDisplay/",
+    "line_count": "1340",
+    "execution_count": null,
+    "keeper": "Kyle Hazelwood",
+    "id": 35000153,
+    "name": "BCC Display"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 35000158,
+    "name": "Pbar Debuncher BPM Program"
+  },
+  {
+    "app_type": null,
+    "description": "This program reads a file generated by the tev sequencer and plots the tev dipoles currents up the ramp or through the squeeze.  It also has the capability to set up filters for minimum current or slew rate thresholds for easier reading of the plots.",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 35000162,
+    "name": "Tev Dipole Plotter"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 35000200,
+    "name": "Linac RF Graphics"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Displays IRM Timer information",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/TimerDisplay/",
+    "line_count": "1415",
+    "execution_count": null,
+    "keeper": "Robert Florian",
+    "id": 35000298,
+    "name": "IRM Timer Display"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Monitors ECool Devices",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/ECoolDisplay/",
+    "line_count": "3003",
+    "execution_count": null,
+    "keeper": "Robert Florian",
+    "id": 35000368,
+    "name": "ECool Display"
+  },
+  {
+    "app_type": null,
+    "description": "Provide Acnet Level II Statistics Functions that Available in VMS application D38",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 35000378,
+    "name": "Acnet Level II Functions"
+  },
+  {
+    "app_type": null,
+    "description": "Manage acnet node table,derived from VMS D92 and D98",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 35000379,
+    "name": "NodeManager"
+  },
+  {
+    "app_type": null,
+    "description": "Program to collect and store BPM reaction on correctors changes",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 35000384,
+    "name": "ECool Correctors Response"
+  },
+  {
+    "app_type": null,
+    "description": "Generates timetable changes for the list of devices",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 35000386,
+    "name": "Waveform Generator"
+  },
+  {
+    "app_type": null,
+    "description": "Try to implement Proportional/Derivative/Integral control Loop for Cryo Meson facility",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 35000388,
+    "name": "PID Control Loop"
+  },
+  {
+    "app_type": null,
+    "description": "Editor for DB table of APACS to ACNET devices map",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 35000389,
+    "name": "Meson APACS / ACNET Map"
+  },
+  {
+    "app_type": null,
+    "description": "Editor for DB table of mucool APACS to ACNET device mapping",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 35000390,
+    "name": "Mucool APACS / ACNET map"
+  },
+  {
+    "app_type": null,
+    "description": "Damper Control Panel",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 35000411,
+    "name": "Damper Control Panel"
+  },
+  {
+    "app_type": null,
+    "description": "Functionality of several other programs collected in one place",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 40000035,
+    "name": "ECool Calibrator"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "3D display",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/BeamOrbits/",
+    "line_count": "3061",
+    "execution_count": null,
+    "keeper": "Robert Florian",
+    "id": 40000036,
+    "name": "Beam Orbits"
+  },
+  {
+    "app_type": null,
+    "description": "GUI for the Tevatron Quench Protection Monitors",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 40000046,
+    "name": "TeV QPM"
+  },
+  {
+    "app_type": null,
+    "description": "Display beam in 3D",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 40000049,
+    "name": "Beam Pos3D"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 40000080,
+    "name": "ECool Beam Shape / Size Measurement"
+  },
+  {
+    "app_type": null,
+    "description": "View Tevatron BLM data from SDA",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 40000117,
+    "name": "BLM Viewer"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 40000131,
+    "name": "Pbar Kicker Timing"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/display400mevlinebpm/",
+    "line_count": "3126",
+    "execution_count": 124,
+    "keeper": "Linden Carmichael",
+    "id": 40000132,
+    "name": "400 MeV Line BPM Display"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Controls QuickSilver Motor",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/MotorControl/",
+    "line_count": "664",
+    "execution_count": null,
+    "keeper": "Robert Florian",
+    "id": 40000134,
+    "name": "QuickSilver Motor Control"
+  },
+  {
+    "app_type": null,
+    "description": "Combines parameter page browser and plot viewer (for FTP and snapshots). Uses secure (based on the Kerberos) connection to an SCF data server.",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 40000136,
+    "name": "Data Browser"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/BeamScrapper/",
+    "line_count": "1018",
+    "execution_count": null,
+    "keeper": "Robert Florian",
+    "id": 40000138,
+    "name": "Linac Beam Scrapper"
+  },
+  {
+    "app_type": null,
+    "description": "Extract several devices into text format",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 40000147,
+    "name": "Batch Data Logger Extractor"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Graphical view of TLG timelines and LLRF states",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/SchedulerViewer/",
+    "line_count": "16629",
+    "execution_count": null,
+    "keeper": "Linden Carmichael",
+    "id": 50000028,
+    "name": "Scheduler Viewer"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "NTF Application",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/NTFChair/",
+    "line_count": "0",
+    "execution_count": null,
+    "keeper": "Robert Florian",
+    "id": 50000070,
+    "name": "NTF Chair"
+  },
+  {
+    "app_type": null,
+    "description": "Calculate and Plot Pbar tunes based on readings read manually from spectrum analyzers",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 50000166,
+    "name": "Pbar Tune Calculator"
+  },
+  {
+    "app_type": "HTML",
+    "description": "",
+    "reference": "http://www-bd.fnal.gov/websetting/setting.html",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 50000173,
+    "name": "Web Setting Log"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/paint_ap/",
+    "line_count": "5446",
+    "execution_count": null,
     "keeper": "Vladimir Nagaslaev",
-    "reference": "gov.fnal.controls.applications.ipm_viewer.IPMviewer",
-    "execution_count": null
+    "id": 50000174,
+    "name": "Paint Aperture"
   },
   {
-    "id": 55000308,
-    "name": "MARV2",
-    "description": "",
     "app_type": null,
-    "keeper": null,
+    "description": "Prepares beam for Debuncher Studies",
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 50000192,
+    "name": "Pbar Debuncher Beam Prep"
   },
   {
-    "id": 60000299,
-    "name": "CDF Radiation Monitoring",
-    "description": "",
     "app_type": null,
-    "keeper": null,
+    "description": "Centers devices about the beam to maximize aperture",
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 50000193,
+    "name": "Pbar Debuncher Component Centering"
   },
   {
-    "id": 60000300,
-    "name": "D0 Radiation Monitoring",
-    "description": "Tev BLM radiation program",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000301,
-    "name": "StackTail Prototype",
-    "description": "for measurements of stacktail prototype pickup tank",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000302,
-    "name": "AJAX Application Bunch",
-    "description": "Lightweight web application, such as Parameter Page, D44, Reading Job and others",
     "app_type": "HTML",
+    "description": "Web catalog for recomputed intensities and aid to rebuild them",
+    "reference": "http://www-bd.fnal.gov/SDA_Viewer/shot_intensities_catalog.jsp",
+    "line_count": null,
+    "execution_count": null,
     "keeper": "Zongwei Yuan",
-    "reference": "http://www-bd.fnal.gov/D44/AJAX_index.html",
-    "execution_count": null
+    "id": 50000212,
+    "name": "Recomputed Intensities"
   },
   {
-    "id": 60000303,
-    "name": "IRM Alarm Application",
-    "description": "Controls/Integrated Engineering IRM alarm monitoring application.",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.fe.irm.AlarmsApp.AlarmSelectFrame",
-    "execution_count": null
-  },
-  {
-    "id": 60000308,
-    "name": "Booster 400 MeV Wire Scanner",
-    "description": "Take beam profiles via wires in 400 MeV line",
     "app_type": null,
-    "keeper": null,
+    "description": "Allow to insert comments into Supertable IV main DB table",
     "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000309,
-    "name": "Recycler Orbit Corrector",
-    "description": "Application to correct Recycler orbit Length",
-    "app_type": null,
+    "line_count": null,
+    "execution_count": null,
     "keeper": null,
-    "reference": null,
-    "execution_count": null
+    "id": 50000213,
+    "name": "Supertable IV Comments Editor"
   },
   {
-    "id": 60000318,
-    "name": "Batch Data Logger Extractor (Array)",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000319,
-    "name": "HLS Level",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000320,
-    "name": "Debuncher Signal To Noise",
-    "description": "Takes data for signal to noise in debuncher cooilng systems",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000321,
-    "name": "Beam Phase Monitor",
-    "description": "Configure, measure and log Tevatron Beam measurements",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.BeamPhaseMonitor.BeamPhaseMonitor",
-    "execution_count": null
-  },
-  {
-    "id": 60000322,
-    "name": "MI_BPM_SDA_Viewer",
-    "description": "MI BPM SDA Viewer",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000323,
-    "name": "CDF Permit Control",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000324,
-    "name": "Resistive Wall Mon Long Emit",
-    "description": "Calculates Long Emittance from RWM",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000325,
-    "name": "Tchrom OAC Log",
-    "description": "Show OAC Tchrom log entries",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000326,
-    "name": "Pbar Performance Calculator",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000328,
-    "name": "ECool Beam Rounding (YAG, OTR)",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000330,
-    "name": "Pelletron Protection",
-    "description": "Merger of Permit System and Fsm Regulation system for the Pelletron",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000331,
-    "name": "Acc => Rec Comments Editor",
-    "description": "Allow to insert comments into Acc => Rec  DB table",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000333,
-    "name": "Linac Tune",
-    "description": "Tunes devices for Linac beam",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000334,
-    "name": "Garbage Collection Info",
-    "description": "Garbage Collection info for DAEs",
-    "app_type": "JWS-AUTO",
-    "keeper": "James Patrick",
-    "reference": "gov.fnal.controls.applications.gcinfo.Gcinfo",
-    "execution_count": 1
-  },
-  {
-    "id": 60000336,
-    "name": "Pbar Debuncher 53MHz BPM",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000337,
-    "name": "Combine Binary Worksheet",
-    "description": "Used to set up tables.",
-    "app_type": "JWS-AUTO",
-    "keeper": "Robert Florian",
-    "reference": "gov.fnal.controls.fe.irm.ComBinWorkSheet.ComBinWorkSheet",
-    "execution_count": null
-  },
-  {
-    "id": 60000338,
-    "name": "Linac QPS P Card Database",
-    "description": "Database of Linac QPS P Card failures.",
-    "app_type": "JWS-AUTO",
-    "keeper": "Yuri Ivanov",
-    "reference": "gov.fnal.controls.applications.Booster.lqpsPcardFailure.ControlsApplication",
-    "execution_count": 4
-  },
-  {
-    "id": 60000339,
-    "name": "Beam Enable Status",
-    "description": "Monitors Beam Enable Chassis",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.fe.irm.BeamEnable.BeamEnableMain",
-    "execution_count": 16
-  },
-  {
-    "id": 60000340,
-    "name": "MARV(Booster)",
-    "description": "Controls for M.A.R.V.",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.fe.irm.marv.MARVMain",
-    "execution_count": null
-  },
-  {
-    "id": 60000341,
-    "name": "Pbar Debuncher to Acc Sem806 Display",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000342,
-    "name": "HINS Timer Plot",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000343,
-    "name": "Epics D44 Archiver",
-    "description": "data logger for epics devices",
     "app_type": "HTML",
-    "keeper": "Zongwei Yuan",
-    "reference": "http://www-bd.fnal.gov/epics_dl/",
-    "execution_count": null
+    "description": "Reports from SBDCAL OAC",
+    "reference": "http://www-bd.fnal.gov/SDA_Viewer/sbdcal_catalog.jsp",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Timofei Bolshakov",
+    "id": 50000214,
+    "name": "SBD and FBI Calibration reports"
   },
   {
-    "id": 60000344,
-    "name": "Superplot Editor",
-    "description": "dynamic generate plots on any supertable columns",
     "app_type": null,
-    "keeper": null,
+    "description": "The new Supertable IV table in different formats",
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 50000215,
+    "name": "Supertable IV Views"
   },
   {
-    "id": 60000346,
-    "name": "Epics Archive Viewer",
-    "description": "",
     "app_type": null,
-    "keeper": null,
+    "description": "Tevatron Power Supplies",
     "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000347,
-    "name": "Epics Archive Viewer * HTS",
-    "description": "",
-    "app_type": null,
+    "line_count": null,
+    "execution_count": null,
     "keeper": null,
-    "reference": null,
-    "execution_count": null
+    "id": 55000150,
+    "name": "Tev PS Status and Control"
   },
   {
-    "id": 60000348,
-    "name": "Linac Trip Reports",
-    "description": "Get Linac Trip data and plot.",
-    "app_type": "JWS-AUTO",
-    "keeper": "Yuri Ivanov",
-    "reference": "gov.fnal.controls.applications.Booster.LinacTripReports.ControlsApplication",
-    "execution_count": 8
-  },
-  {
-    "id": 60000349,
-    "name": "NTF Interlocks",
+    "app_type": "HTML",
     "description": "",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.fe.irm.NTFInterLocks.NTFInterLocks",
-    "execution_count": 7
-  },
-  {
-    "id": 60000350,
-    "name": "RR Life Time Analyzer",
-    "description": "to calculate pbar lost",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000351,
-    "name": "Operations Scopes",
-    "description": "AD/Operations program for accessing remote oscilloscopes",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.applications.OperationsScopes.OperationsScopes",
-    "execution_count": 411
-  },
-  {
-    "id": 60000352,
-    "name": "Operations GISMO",
-    "description": "",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000353,
-    "name": "Device Lookup Test",
-    "description": "",
-    "app_type": "JWS-AUTO",
+    "reference": "http://www-bd.fnal.gov/herec/report",
+    "line_count": null,
+    "execution_count": null,
     "keeper": "Andrey Petrov",
-    "reference": "gov.fnal.controls.service.naming.ui.DeviceField",
-    "execution_count": null
+    "id": 55000153,
+    "name": "A0 Helium Recovery Report"
   },
   {
-    "id": 60000354,
-    "name": "Operations Radar",
-    "description": "Radar scope used in control room",
     "app_type": null,
-    "keeper": null,
+    "description": "Starting FreeHEP's Java Analysis Studio (JAS) through Java Web Start without opening any particular project.",
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000156,
+    "name": "Java Analysis Studio"
   },
   {
-    "id": 60000355,
-    "name": "Pbar Superplot",
-    "description": "dynamic generate pbar plots on any pbar supertable columns",
     "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000356,
-    "name": "Epics Archive Viewer * HINS",
     "description": "",
-    "app_type": null,
-    "keeper": null,
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000157,
+    "name": "Pbar Accum Calc and Plot Tunes"
   },
   {
-    "id": 60000357,
-    "name": "Black Hole",
-    "description": "A dummy application used to update local webstart cache with popular library. CAN NOT BE STARTED.",
+    "app_type": null,
+    "description": "Application configures Pelletron for different modes.",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000159,
+    "name": "Pelletron Mode Controller"
+  },
+  {
+    "app_type": null,
+    "description": "Mobile device",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000172,
+    "name": "MARV"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000193,
+    "name": "Debuncher Ibeam Plot"
+  },
+  {
+    "app_type": null,
+    "description": "client application to control Shottky OAC",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000244,
+    "name": "ShottkyApp"
+  },
+  {
+    "app_type": null,
+    "description": "Setup and Measure Cooling times in Debuncher",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000245,
+    "name": "Debuncher Cooling Time"
+  },
+  {
     "app_type": "JWS-AUTO",
+    "description": "Moves Paddel in Beam Pipe",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/BeamScrapper/",
+    "line_count": "1018",
+    "execution_count": null,
+    "keeper": "Robert Florian",
+    "id": 55000247,
+    "name": "Beam Scrapper"
+  },
+  {
+    "app_type": null,
+    "description": "Summary plots of antiproton stacking",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000249,
+    "name": "Pbar Performance Plots"
+  },
+  {
+    "app_type": null,
+    "description": "Display old Booster Radiation Monitors",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000250,
+    "name": "Booster RAD Monitor Display"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Track Booster tunnel humidity",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/Booster/HumidityTracker/",
+    "line_count": "1740",
+    "execution_count": 9,
+    "keeper": "Yuri Ivanov",
+    "id": 55000251,
+    "name": "Booster Humidity Tracker"
+  },
+  {
+    "app_type": null,
+    "description": "Pbar SA1 Video Out",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000252,
+    "name": "SA1 Video Out"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000253,
+    "name": "Synclite Monitor"
+  },
+  {
+    "app_type": null,
+    "description": "Mult Panel for ECool",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000254,
+    "name": "ECool Mult Panel"
+  },
+  {
+    "app_type": null,
+    "description": "Performance Measures for Debuncher Bunch Rotation",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000259,
+    "name": "Debuncher Bunch Rotation"
+  },
+  {
+    "app_type": "HTML",
+    "description": "",
+    "reference": "http://www-bd.fnal.gov/synoptic/display/Cryo/Meson/TL_Meson",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Brian Degraff",
+    "id": 55000260,
+    "name": "TL Meson"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000261,
+    "name": "Pbar Global Health"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000263,
+    "name": "Pbar Beamlines BPM Program"
+  },
+  {
+    "app_type": "HTML",
+    "description": "On-line reading access to the accelerator control system",
+    "reference": "http://www-bd.fnal.gov/controls/public/linux-console.html",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Andrey Petrov",
+    "id": 55000264,
+    "name": "Acnet Console on Linux"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "On-line reading access to the accelerator control system",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/dash/",
+    "line_count": "94",
+    "execution_count": null,
+    "keeper": "Andrey Petrov",
+    "id": 55000264,
+    "name": "Acnet Console on Linux"
+  },
+  {
+    "app_type": null,
+    "description": "Define touch and extinction points in Aperture Scans",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000265,
+    "name": "Pbar Aperture Scan"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "*",
+    "reference": "com.ice.jcvsii.JCVS",
+    "line_count": null,
+    "execution_count": null,
     "keeper": "Denise Finstrom",
-    "reference": "gov.nothing",
-    "execution_count": null
+    "id": 55000270,
+    "name": "JCVS"
   },
   {
-    "id": 60000358,
-    "name": "Hins LLRF",
-    "description": "GUI for Hins LLRF System",
     "app_type": null,
-    "keeper": null,
+    "description": "Display Logged Pbar Spectrum Analyzer Data",
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000277,
+    "name": "Display Pbar SA Data"
   },
   {
-    "id": 60000359,
-    "name": "Alarms Viewer",
-    "description": "Concept alarms screen",
+    "app_type": null,
+    "description": "Collects Data Logger data in time when some state device has distinct value",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000292,
+    "name": "Events Data Logger"
+  },
+  {
     "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.applications.HazeAlarmsViewer.HazeAlarmsViewer",
-    "execution_count": 168
+    "description": "Debuncher IPM Viewer",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/ipm_viewer/",
+    "line_count": "2918",
+    "execution_count": null,
+    "keeper": "Vladimir Nagaslaev",
+    "id": 55000298,
+    "name": "IPMviewer"
   },
   {
-    "id": 60000360,
-    "name": "Real Time Plotter",
-    "description": "FTP type concept program",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.applications.RealTimePlotter.RealTimePlotter",
-    "execution_count": null
-  },
-  {
-    "id": 60000361,
-    "name": "ComfortPlotApplication",
+    "app_type": null,
     "description": "",
-    "app_type": "JWS-AUTO",
-    "keeper": "Brian Schupbach",
-    "reference": "gov.fnal.controls.applications.ComfortPlot.ComfortPlot",
-    "execution_count": 171
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 55000308,
+    "name": "MARV2"
   },
   {
-    "id": 60000362,
-    "name": "System Property Display",
+    "app_type": null,
     "description": "",
-    "app_type": "JWS-AUTO",
-    "keeper": "Andrey Petrov",
-    "reference": "gov.fnal.controls.applications.introspect.SysPropDisplay",
-    "execution_count": null
-  },
-  {
-    "id": 60000363,
-    "name": "Hins Wire Scanner",
-    "description": "GUI for Hins Wire Scanner",
-    "app_type": null,
-    "keeper": null,
     "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000364,
-    "name": "Muon Target Sem",
-    "description": "",
-    "app_type": null,
+    "line_count": null,
+    "execution_count": null,
     "keeper": null,
-    "reference": null,
-    "execution_count": null
+    "id": 60000299,
+    "name": "CDF Radiation Monitoring"
   },
   {
-    "id": 60000365,
-    "name": "HINS Toroid",
-    "description": "HINS Toroid Application",
     "app_type": null,
-    "keeper": null,
+    "description": "Tev BLM radiation program",
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000300,
+    "name": "D0 Radiation Monitoring"
   },
   {
-    "id": 60000366,
-    "name": "Booster TeK Scopes",
-    "description": "gather scope traces for tek3000 & tek5000",
-    "app_type": "JWS-AUTO",
-    "keeper": "Brian Schupbach",
-    "reference": "gov.fnal.controls.applications.BoosterScopesApp.BoosterScopesApp",
-    "execution_count": 45
-  },
-  {
-    "id": 60000367,
-    "name": "Pbar VSA Display",
-    "description": "",
     "app_type": null,
-    "keeper": null,
+    "description": "for measurements of stacktail prototype pickup tank",
     "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000368,
-    "name": "Tel2BPM",
-    "description": "",
-    "app_type": null,
+    "line_count": null,
+    "execution_count": null,
     "keeper": null,
-    "reference": null,
-    "execution_count": null
+    "id": 60000301,
+    "name": "StackTail Prototype"
   },
   {
-    "id": 60000369,
-    "name": "Crash Status",
-    "description": "Application provides display and logging for generic system faults.",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000370,
-    "name": "Linac DownTime",
-    "description": "Linac downtime application",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.applications.LinacDT.LinacDT",
-    "execution_count": 3
-  },
-  {
-    "id": 60000371,
-    "name": "Memory Dump",
-    "description": "Displays Memory Data on node",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.fe.irm.MemDump.RunMemDump",
-    "execution_count": null
-  },
-  {
-    "id": 60000372,
-    "name": "NML Wire Position Monitor",
-    "description": "NML Wire Position Monitor",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000373,
-    "name": "NML Wire Position Monitor",
-    "description": "NML Wire Position Monitor",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000375,
-    "name": "Booster DownTime",
-    "description": "Booster downtime application",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.applications.BoosterDT.BoosterDT",
-    "execution_count": 2
-  },
-  {
-    "id": 60000376,
-    "name": "Boss-O-Gram",
-    "description": "AD/Operations call in program",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.applications.BossOGram.BossOGram",
-    "execution_count": 553
-  },
-  {
-    "id": 60000377,
-    "name": "Boss-O-Schedule",
-    "description": "AD/Operations schedule program",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.applications.BossOSchedule.BossOSchedule",
-    "execution_count": 522
-  },
-  {
-    "id": 60000378,
-    "name": "Time Line Generator",
-    "description": "",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.TimeLineGenerator.TimeLineGenerator",
-    "execution_count": 5
-  },
-  {
-    "id": 60000379,
-    "name": "Booster HLRF Status and Control",
-    "description": "Provide Status and Control for Booster High Level RF",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000380,
-    "name": "Trip Display",
-    "description": "Trip Count Display",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.fe.irm.TripDisplay.TripDisplayFrame",
-    "execution_count": 15
-  },
-  {
-    "id": 60000381,
-    "name": "Real Time Plotter Test",
-    "description": "Test release for realtimeplotter",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.applications.RealTimePlotterTest.RealTimePlotterTest",
-    "execution_count": 344
-  },
-  {
-    "id": 60000382,
-    "name": "Linac Wire Scan",
-    "description": "",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.linacWireScan.LinacWireScan",
-    "execution_count": 22
-  },
-  {
-    "id": 60000383,
-    "name": "Hins Emittance Scanner",
-    "description": "Automates emittance scans",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000385,
-    "name": "GetDAQ Web Service",
-    "description": "Reading ACNET data via HTTP",
     "app_type": "HTML",
-    "keeper": "Andrey Petrov",
-    "reference": "http://www-bd.fnal.gov/getdaq",
-    "execution_count": null
-  },
-  {
-    "id": 60000386,
-    "name": "Freechart Datalogger Plot",
-    "description": "D44 plot",
-    "app_type": "HTML",
+    "description": "Lightweight web application, such as Parameter Page, D44, Reading Job and others",
+    "reference": "http://www-bd.fnal.gov/D44/AJAX_index.html",
+    "line_count": null,
+    "execution_count": null,
     "keeper": "Zongwei Yuan",
-    "reference": "http://www-bd.fnal.gov/primeapp/freeplot.jsf",
-    "execution_count": null
+    "id": 60000302,
+    "name": "AJAX Application Bunch"
   },
   {
-    "id": 60000387,
-    "name": "Linac Emittance Probe",
-    "description": "Linac Emittance Probe Application",
     "app_type": "JWS-AUTO",
-    "keeper": "Yuri Ivanov",
-    "reference": "gov.fnal.controls.applications.Linac.Probe750.emittanceProbe750.control.EmittanceProbe750Frame",
-    "execution_count": null
+    "description": "Controls/Integrated Engineering IRM alarm monitoring application.",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/AlarmsApp/",
+    "line_count": "1730",
+    "execution_count": null,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000303,
+    "name": "IRM Alarm Application"
   },
   {
-    "id": 60000388,
-    "name": "Linac BPM Data",
-    "description": "Calculates StdDev of BPM Data",
+    "app_type": null,
+    "description": "Take beam profiles via wires in 400 MeV line",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000308,
+    "name": "Booster 400 MeV Wire Scanner"
+  },
+  {
+    "app_type": null,
+    "description": "Application to correct Recycler orbit Length",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000309,
+    "name": "Recycler Orbit Corrector"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000318,
+    "name": "Batch Data Logger Extractor (Array)"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000319,
+    "name": "HLS Level"
+  },
+  {
+    "app_type": null,
+    "description": "Takes data for signal to noise in debuncher cooilng systems",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000320,
+    "name": "Debuncher Signal To Noise"
+  },
+  {
     "app_type": "JWS-AUTO",
+    "description": "Configure, measure and log Tevatron Beam measurements",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/BeamPhaseMonitor/",
+    "line_count": "3742",
+    "execution_count": null,
+    "keeper": "Linden Carmichael",
+    "id": 60000321,
+    "name": "Beam Phase Monitor"
+  },
+  {
+    "app_type": null,
+    "description": "MI BPM SDA Viewer",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000322,
+    "name": "MI_BPM_SDA_Viewer"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000323,
+    "name": "CDF Permit Control"
+  },
+  {
+    "app_type": null,
+    "description": "Calculates Long Emittance from RWM",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000324,
+    "name": "Resistive Wall Mon Long Emit"
+  },
+  {
+    "app_type": null,
+    "description": "Show OAC Tchrom log entries",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000325,
+    "name": "Tchrom OAC Log"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000326,
+    "name": "Pbar Performance Calculator"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000328,
+    "name": "ECool Beam Rounding (YAG, OTR)"
+  },
+  {
+    "app_type": null,
+    "description": "Merger of Permit System and Fsm Regulation system for the Pelletron",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000330,
+    "name": "Pelletron Protection"
+  },
+  {
+    "app_type": null,
+    "description": "Allow to insert comments into Acc => Rec  DB table",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000331,
+    "name": "Acc => Rec Comments Editor"
+  },
+  {
+    "app_type": null,
+    "description": "Tunes devices for Linac beam",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000333,
+    "name": "Linac Tune"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Garbage Collection info for DAEs",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/gcinfo/",
+    "line_count": "438",
+    "execution_count": 1,
+    "keeper": "James Patrick",
+    "id": 60000334,
+    "name": "Garbage Collection Info"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000336,
+    "name": "Pbar Debuncher 53MHz BPM"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Used to set up tables.",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/ComBinWorkSheet/",
+    "line_count": "1061",
+    "execution_count": null,
     "keeper": "Robert Florian",
-    "reference": "gov.fnal.controls.fe.irm.LinacBPMData.BPMDataFrame",
-    "execution_count": 4
+    "id": 60000337,
+    "name": "Combine Binary Worksheet"
   },
   {
-    "id": 60000389,
-    "name": "Transient Recorder",
-    "description": "",
     "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.D25.D25",
-    "execution_count": 4
+    "description": "Database of Linac QPS P Card failures.",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/Booster/lqpsPcardFailure/",
+    "line_count": "3014",
+    "execution_count": 4,
+    "keeper": "Yuri Ivanov",
+    "id": 60000338,
+    "name": "Linac QPS P Card Database"
   },
   {
-    "id": 60000390,
-    "name": "Boss-O-Schedule Web",
-    "description": "AD/Operations schedule program on the web",
+    "app_type": "JWS-AUTO",
+    "description": "Monitors Beam Enable Chassis",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/BeamEnable/",
+    "line_count": "2837",
+    "execution_count": 16,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000339,
+    "name": "Beam Enable Status"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Controls for M.A.R.V.",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/marv/",
+    "line_count": "0",
+    "execution_count": null,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000340,
+    "name": "MARV(Booster)"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000341,
+    "name": "Pbar Debuncher to Acc Sem806 Display"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000342,
+    "name": "HINS Timer Plot"
+  },
+  {
     "app_type": "HTML",
-    "keeper": "Kyle Hazelwood",
-    "reference": "http://www-bd.fnal.gov/BossOSchedule/",
-    "execution_count": null
-  },
-  {
-    "id": 60000391,
-    "name": "Linac 400MeV Steer",
-    "description": "Linac 400Mev Steering program",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.applications.LinacSteer.LinacSteer",
-    "execution_count": 187
-  },
-  {
-    "id": 60000392,
-    "name": "Muon Tor 704",
-    "description": "",
-    "app_type": "JWS-AUTO",
-    "keeper": "Jim Budlong",
-    "reference": "gov.fnal.controls.applications.muonTor704Scope.MuonTor704Scope",
-    "execution_count": 193
-  },
-  {
-    "id": 60000393,
-    "name": "BLM Cycle Plot",
-    "description": "A Java equivalent of B136",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.B136.B136",
-    "execution_count": 6
-  },
-  {
-    "id": 60000394,
-    "name": "Booster 473 Ramp Utility",
-    "description": "Various functions for managing Booster 473 ramp cards.",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.Booster.BooRampUtil.ControlsApplication",
-    "execution_count": 115
-  },
-  {
-    "id": 60000395,
-    "name": "Booster IRM Array Plotter",
-    "description": "Plot RF and Peak Diode Detector signals from IRMs",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000396,
-    "name": "Booster Bucket Calculations",
-    "description": "Calculations and Plot of Booster Bucket Info",
-    "app_type": "JWS-AUTO",
-    "keeper": "Yuri Ivanov",
-    "reference": "gov.fnal.controls.applications.Booster.BucketCalcs.bucketcalcs.BucketCalcsMain",
-    "execution_count": 3
-  },
-  {
-    "id": 60000397,
-    "name": "NTF Upgrade Test",
-    "description": "Simulate NTF Beam Data.",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000398,
-    "name": "Linac Alarm Window",
-    "description": "Displays Linac Alarms",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.fe.irm.AlarmsApp.LinacAlarmWindow",
-    "execution_count": null
-  },
-  {
-    "id": 60000399,
-    "name": "Source Scope",
-    "description": "Scope traces of Source",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.fe.irm.FastTimePlot.SourceScope",
-    "execution_count": 1
-  },
-  {
-    "id": 60000400,
-    "name": "Linac BPM Expert",
-    "description": "Access internals for Linac BPM electronics (2012)",
-    "app_type": "JWS-AUTO",
-    "keeper": "Elliott McCrory",
-    "reference": "gov.fnal.controls.applications.LinacBPM.LinacBPMExpert",
-    "execution_count": 40
-  },
-  {
-    "id": 60000401,
-    "name": "Linac BPM Simple Display",
-    "description": "",
-    "app_type": "JWS-AUTO",
-    "keeper": "Elliott McCrory",
-    "reference": "gov.fnal.controls.applications.LinacBPM.LinacBPM",
-    "execution_count": null
-  },
-  {
-    "id": 60000402,
-    "name": "Linac BPM Multiplexed Waveforms",
-    "description": "Control for the Linac BPM mulitplex waveform channels",
-    "app_type": "JWS-AUTO",
-    "keeper": "Elliott McCrory",
-    "reference": "gov.fnal.controls.applications.LinacBPM.expert.MultiplexWaveformPanel",
-    "execution_count": null
-  },
-  {
-    "id": 60000403,
-    "name": "Linac BPM Expert Summary",
-    "description": "Summarizes the status of all the Lianac BPM modules",
-    "app_type": "JWS-AUTO",
-    "keeper": "Elliott McCrory",
-    "reference": "gov.fnal.controls.applications.LinacBPM.expert.StatusAndRegisterTogetherPanel",
-    "execution_count": null
-  },
-  {
-    "id": 60000404,
-    "name": "Linac BPM Sync DAQ",
-    "description": "Control and display the Synchronous DAQ Waveforms for the Linac BPMs",
-    "app_type": "JWS-AUTO",
-    "keeper": "Elliott McCrory",
-    "reference": "gov.fnal.controls.applications.LinacBPM.SyncWaveformPanel",
-    "execution_count": 9
-  },
-  {
-    "id": 60000405,
-    "name": "Framework Dmq Test",
-    "description": "Test the Application Framework with a Dmq Connection",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000406,
-    "name": "Framework Dmq Test",
-    "description": "Application Framework Test with Dmq",
-    "app_type": "JWS-AUTO",
-    "keeper": "James Patrick",
-    "reference": "gov.fnal.controls.framework.examples.FrameworkDmqTest",
-    "execution_count": null
-  },
-  {
-    "id": 60000407,
-    "name": "Image Tool",
-    "description": "Profile monitor image acquisition and analysis",
-    "app_type": "JWS-AUTO",
-    "keeper": "John Diamond",
-    "reference": "gov.fnal.controls.applications.ASTACameras.ImageTool",
-    "execution_count": 15
-  },
-  {
-    "id": 60000408,
-    "name": "MISWIC Dispatcher",
-    "description": "read MISWIC data and send to multiple receiver to calculate",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000409,
-    "name": "MISWIC Calculator",
-    "description": "receive data from dispatcher and calculate",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000410,
-    "name": "Linac BPM Expert Overview",
-    "description": "Shows the control registers for all the Linac BPM modules",
-    "app_type": "JWS-AUTO",
-    "keeper": "Elliott McCrory",
-    "reference": "gov.fnal.controls.applications.LinacBPM.expert.LinacRegisterOverview",
-    "execution_count": 91
-  },
-  {
-    "id": 60000411,
-    "name": "Acl Viewer",
-    "description": "Application interface to Acl Server (OAC )",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.aclviewer.AclViewer",
-    "execution_count": 10
-  },
-  {
-    "id": 60000412,
-    "name": "Booster Aperture Scan Viewer",
-    "description": "Viewer for Booster aperture scans taken with B75",
-    "app_type": "JWS-AUTO",
-    "keeper": "Yuri Ivanov",
-    "reference": "gov.fnal.controls.applications.Booster.BooApScanViewer.ControlsApplication",
-    "execution_count": 1
-  },
-  {
-    "id": 60000413,
-    "name": "Emittance Tool",
-    "description": "ASTA emittance calculator",
-    "app_type": "JWS-AUTO",
-    "keeper": "John Diamond",
-    "reference": "gov.fnal.controls.applications.ASTAEmittanceCalc.EmittanceTool",
-    "execution_count": 1
-  },
-  {
-    "id": 60000414,
-    "name": "Array Device Plotter",
-    "description": "Plot Array Devices using DMQ and JDataViewer",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.Booster.ArrayDevicePlotter.ArrayDevicePlotter",
-    "execution_count": 6
-  },
-  {
-    "id": 60000415,
-    "name": "Christmas Intensity Tree",
-    "description": "Virtual Christmas tree for monitoring intensity.",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.applications.ChristmasIntensityTree.ChristmasIntensityTree",
-    "execution_count": 45
-  },
-  {
-    "id": 60000416,
-    "name": "Main Injector Batch Delta",
-    "description": "Program to measure differences in MI batch arrival times.",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.applications.MainInjectorBatchDelta.MainInjectorBatchDelta",
-    "execution_count": 1
-  },
-  {
-    "id": 60000417,
-    "name": "Array Plotter",
-    "description": "Generic array device plotter. Accepts command line arguments.",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.applications.ArrayPlotter.ArrayPlotter",
-    "execution_count": 7
-  },
-  {
-    "id": 60000418,
-    "name": "Linac Device Scan",
-    "description": "Linac device Scan",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.LinacDeviceScan.LinacDeviceScan",
-    "execution_count": 24
-  },
-  {
-    "id": 60000419,
-    "name": "PXIE Beam Size Scan Application",
-    "description": "PXIE Beam Size Scan Application",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.CMTFBeamSize.CMTFBeamSize",
-    "execution_count": 1
-  },
-  {
-    "id": 60000420,
-    "name": "Rack Monitor Alarms",
-    "description": "Live rack monitor alarms screen and alarms logger.",
-    "app_type": "JWS-AUTO",
-    "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.applications.RackMonitorAlarms.RackMonitorAlarms",
-    "execution_count": 54
-  },
-  {
-    "id": 60000421,
-    "name": "Booster Tune Bump Editor",
-    "description": "Create, Edit, Save and Send Booster Tune Bumps",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000422,
-    "name": "PXIEScraperScan",
-    "description": "PXIE Scraper Scan Application",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.PXIEScraperScan.PXIEScraperScan",
-    "execution_count": 69
-  },
-  {
-    "id": 60000423,
-    "name": "Booster Magnetic Cogging Control",
-    "description": "Booster Magnetic Cogging Control",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.Booster.MCogControl.MCogControl",
-    "execution_count": null
-  },
-  {
-    "id": 60000424,
-    "name": "MPS Registers",
-    "description": "A hex view of the MPS registers and Trip Log",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.astamps.registers.MpsRegisters",
-    "execution_count": 3
-  },
-  {
-    "id": 60000425,
-    "name": "BccPlotEditor",
-    "description": "generate plot on BCC data",
-    "app_type": "JWS-AUTO",
+    "description": "data logger for epics devices",
+    "reference": "http://www-bd.fnal.gov/epics_dl/",
+    "line_count": null,
+    "execution_count": null,
     "keeper": "Zongwei Yuan",
-    "reference": "gov.fnal.controls.applications.BsscPlotEditor.BsscPlotEditor",
-    "execution_count": null
+    "id": 60000343,
+    "name": "Epics D44 Archiver"
   },
   {
-    "id": 60000426,
-    "name": "BoosterDDSCurves",
-    "description": "DDS Curve Manager",
+    "app_type": null,
+    "description": "dynamic generate plots on any supertable columns",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000344,
+    "name": "Superplot Editor"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000346,
+    "name": "Epics Archive Viewer"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000347,
+    "name": "Epics Archive Viewer * HTS"
+  },
+  {
     "app_type": "JWS-AUTO",
+    "description": "Get Linac Trip data and plot.",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/Booster/LinacTripReports/",
+    "line_count": "5943",
+    "execution_count": 8,
+    "keeper": "Yuri Ivanov",
+    "id": 60000348,
+    "name": "Linac Trip Reports"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/NTFInterLocks/",
+    "line_count": "1381",
+    "execution_count": 7,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000349,
+    "name": "NTF Interlocks"
+  },
+  {
+    "app_type": null,
+    "description": "to calculate pbar lost",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000350,
+    "name": "RR Life Time Analyzer"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "AD/Operations program for accessing remote oscilloscopes",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/OperationsScopes/",
+    "line_count": "2028",
+    "execution_count": 411,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000351,
+    "name": "Operations Scopes"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000352,
+    "name": "Operations GISMO"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/service/naming/ui/",
+    "line_count": "667",
+    "execution_count": null,
+    "keeper": "Andrey Petrov",
+    "id": 60000353,
+    "name": "Device Lookup Test"
+  },
+  {
+    "app_type": null,
+    "description": "Radar scope used in control room",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000354,
+    "name": "Operations Radar"
+  },
+  {
+    "app_type": null,
+    "description": "dynamic generate pbar plots on any pbar supertable columns",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000355,
+    "name": "Pbar Superplot"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000356,
+    "name": "Epics Archive Viewer * HINS"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "A dummy application used to update local webstart cache with popular library. CAN NOT BE STARTED.",
+    "reference": "/usr/local/dae/gov/",
+    "line_count": "0",
+    "execution_count": null,
+    "keeper": "Denise Finstrom",
+    "id": 60000357,
+    "name": "Black Hole"
+  },
+  {
+    "app_type": null,
+    "description": "GUI for Hins LLRF System",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000358,
+    "name": "Hins LLRF"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Concept alarms screen",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/HazeAlarmsViewer/",
+    "line_count": "4036",
+    "execution_count": 168,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000359,
+    "name": "Alarms Viewer"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "FTP type concept program",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/RealTimePlotter/",
+    "line_count": "4404",
+    "execution_count": null,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000360,
+    "name": "Real Time Plotter"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/ComfortPlot/",
+    "line_count": "5160",
+    "execution_count": 171,
     "keeper": "Brian Schupbach",
-    "reference": "gov.fnal.controls.applications.BoosterDDSCurves.BoosterDDSCurves",
-    "execution_count": 268
+    "id": 60000361,
+    "name": "ComfortPlotApplication"
   },
   {
-    "id": 60000427,
-    "name": "BoosterDDSCurves",
-    "description": "DDS curve manager",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000428,
-    "name": "Main Injector Beam Loss Monitoring",
+    "app_type": "JWS-AUTO",
     "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/introspect/",
+    "line_count": "72",
+    "execution_count": null,
+    "keeper": "Andrey Petrov",
+    "id": 60000362,
+    "name": "System Property Display"
+  },
+  {
+    "app_type": null,
+    "description": "GUI for Hins Wire Scanner",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000363,
+    "name": "Hins Wire Scanner"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000364,
+    "name": "Muon Target Sem"
+  },
+  {
+    "app_type": null,
+    "description": "HINS Toroid Application",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000365,
+    "name": "HINS Toroid"
+  },
+  {
     "app_type": "JWS-AUTO",
+    "description": "gather scope traces for tek3000 & tek5000",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/BoosterScopesApp/",
+    "line_count": "1734",
+    "execution_count": 45,
+    "keeper": "Brian Schupbach",
+    "id": 60000366,
+    "name": "Booster TeK Scopes"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000367,
+    "name": "Pbar VSA Display"
+  },
+  {
+    "app_type": null,
+    "description": "",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000368,
+    "name": "Tel2BPM"
+  },
+  {
+    "app_type": null,
+    "description": "Application provides display and logging for generic system faults.",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000369,
+    "name": "Crash Status"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Linac downtime application",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/LinacDT/",
+    "line_count": "5063",
+    "execution_count": 3,
     "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.applications.MainInjectorBeamLossMonitoring.MainInjectorBeamLossMonitoring",
-    "execution_count": 478
+    "id": 60000370,
+    "name": "Linac DownTime"
   },
   {
-    "id": 60000429,
-    "name": "AutoCopy",
-    "description": "Java version of the famed Chips Auto Copy program",
     "app_type": "JWS-AUTO",
-    "keeper": "Chip Edstrom Jr.",
-    "reference": "gov.fnal.controls.applications.AutoCopy.AutoCopy",
-    "execution_count": null
-  },
-  {
-    "id": 60000430,
-    "name": "DALE",
-    "description": "AD/Main Injector department Data Aquistion Logging Engine client",
-    "app_type": "JWS-AUTO",
+    "description": "Displays Memory Data on node",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/MemDump/",
+    "line_count": "498",
+    "execution_count": null,
     "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.applications.DALE.DALE",
-    "execution_count": 113
+    "id": 60000371,
+    "name": "Memory Dump"
   },
   {
-    "id": 60000431,
-    "name": "PXIE Timing Plot",
-    "description": "PXIE Timing Plot",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.PXIETiming.PXIETiming",
-    "execution_count": 1
-  },
-  {
-    "id": 60000432,
-    "name": "PXIE MEBT Beam Energy",
-    "description": "PXIE MEBT Beam Energy",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.PXIERFQMEBTBeamEnergy.PXIERFQMEBTBeamEnergy",
-    "execution_count": 1
-  },
-  {
-    "id": 60000433,
-    "name": "LinkFromFrame",
-    "description": "Test Links from Frame",
     "app_type": null,
-    "keeper": null,
+    "description": "NML Wire Position Monitor",
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000372,
+    "name": "NML Wire Position Monitor"
   },
   {
-    "id": 60000434,
-    "name": "TestFrameLinks",
-    "description": "Test launching of Desktop browser",
     "app_type": null,
-    "keeper": null,
+    "description": "NML Wire Position Monitor",
     "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000435,
-    "name": "TestBrowser",
-    "description": "Test the launching of the java desktop browser",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.tlg.TestFrame",
-    "execution_count": null
-  },
-  {
-    "id": 60000436,
-    "name": "TestControlsBrowser",
-    "description": "Test the launching of the java desktop browser",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.tlg.TestControlsFrame",
-    "execution_count": 5
-  },
-  {
-    "id": 60000437,
-    "name": "PXIE Quad Emittance Scan",
-    "description": "PXIE Quad Emittance Scan",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.PXIEQuadEmittanceScan.PXIEQuadEmittanceScan",
-    "execution_count": 2
-  },
-  {
-    "id": 60000438,
-    "name": "PXIE Scraper Scan Read",
-    "description": "PXIE Scraper Scan Read",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.PXIEScraperScanRead.PXIEScraperScanRead",
-    "execution_count": null
-  },
-  {
-    "id": 60000439,
-    "name": "drvsaapp",
-    "description": "Delivery Ring VSA application",
-    "app_type": null,
+    "line_count": null,
+    "execution_count": null,
     "keeper": null,
-    "reference": null,
-    "execution_count": null
+    "id": 60000373,
+    "name": "NML Wire Position Monitor"
   },
   {
-    "id": 60000440,
-    "name": "Delivery Ring VSA",
-    "description": "Delivery Ring VSA waveform Plotter",
     "app_type": "JWS-AUTO",
-    "keeper": "James Patrick",
-    "reference": "gov.fnal.controls.applications.drvsaapp.Drvsaapp",
-    "execution_count": 17
-  },
-  {
-    "id": 60000441,
-    "name": "Differential Orbits",
-    "description": "Differential Scans",
-    "app_type": null,
-    "keeper": null,
-    "reference": null,
-    "execution_count": null
-  },
-  {
-    "id": 60000442,
-    "name": "PXIE Cavity Phase Scan",
-    "description": "PXIE Cavity Phase Scan",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.PXIECavityPhase.PXIECavityPhase",
-    "execution_count": 22
-  },
-  {
-    "id": 60000443,
-    "name": "MITUNE",
-    "description": "Client for MITUNE OAC.",
-    "app_type": "JWS-AUTO",
+    "description": "Booster downtime application",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/BoosterDT/",
+    "line_count": "5206",
+    "execution_count": 2,
     "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.daq.oac.clients.mitune.Client.MITUNEClient",
-    "execution_count": null
+    "id": 60000375,
+    "name": "Booster DownTime"
   },
   {
-    "id": 60000444,
-    "name": "Linac BPM Readings Overview",
-    "description": "Show the readings from all of the 400 MeV BPMs, and their RMS values",
     "app_type": "JWS-AUTO",
+    "description": "AD/Operations call in program",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/BossOGram/",
+    "line_count": "1366",
+    "execution_count": 553,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000376,
+    "name": "Boss-O-Gram"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "AD/Operations schedule program",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/BossOSchedule/",
+    "line_count": "13991",
+    "execution_count": 522,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000377,
+    "name": "Boss-O-Schedule"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/TimeLineGenerator/",
+    "line_count": "18225",
+    "execution_count": 5,
+    "keeper": "Linden Carmichael",
+    "id": 60000378,
+    "name": "Time Line Generator"
+  },
+  {
+    "app_type": null,
+    "description": "Provide Status and Control for Booster High Level RF",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000379,
+    "name": "Booster HLRF Status and Control"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Trip Count Display",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/TripDisplay/",
+    "line_count": "1365",
+    "execution_count": 15,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000380,
+    "name": "Trip Display"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Test release for realtimeplotter",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/RealTimePlotterTest/",
+    "line_count": "7420",
+    "execution_count": 344,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000381,
+    "name": "Real Time Plotter Test"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/linacWireScan/",
+    "line_count": "17079",
+    "execution_count": 22,
+    "keeper": "Linden Carmichael",
+    "id": 60000382,
+    "name": "Linac Wire Scan"
+  },
+  {
+    "app_type": null,
+    "description": "Automates emittance scans",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000383,
+    "name": "Hins Emittance Scanner"
+  },
+  {
+    "app_type": "HTML",
+    "description": "Reading ACNET data via HTTP",
+    "reference": "http://www-bd.fnal.gov/getdaq",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Andrey Petrov",
+    "id": 60000385,
+    "name": "GetDAQ Web Service"
+  },
+  {
+    "app_type": "HTML",
+    "description": "D44 plot",
+    "reference": "http://www-bd.fnal.gov/primeapp/freeplot.jsf",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 60000386,
+    "name": "Freechart Datalogger Plot"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Linac Emittance Probe Application",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/Linac/Probe750/emittanceProbe750/control/",
+    "line_count": "1628",
+    "execution_count": null,
+    "keeper": "Yuri Ivanov",
+    "id": 60000387,
+    "name": "Linac Emittance Probe"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Calculates StdDev of BPM Data",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/LinacBPMData/",
+    "line_count": "942",
+    "execution_count": 4,
+    "keeper": "Robert Florian",
+    "id": 60000388,
+    "name": "Linac BPM Data"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/D25/",
+    "line_count": "3397",
+    "execution_count": 4,
+    "keeper": "Linden Carmichael",
+    "id": 60000389,
+    "name": "Transient Recorder"
+  },
+  {
+    "app_type": "HTML",
+    "description": "AD/Operations schedule program on the web",
+    "reference": "http://www-bd.fnal.gov/BossOSchedule/",
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000390,
+    "name": "Boss-O-Schedule Web"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Linac 400Mev Steering program",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/LinacSteer/",
+    "line_count": "7353",
+    "execution_count": 187,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000391,
+    "name": "Linac 400MeV Steer"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/muonTor704Scope/",
+    "line_count": "1157",
+    "execution_count": 193,
+    "keeper": "Jim Budlong",
+    "id": 60000392,
+    "name": "Muon Tor 704"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "A Java equivalent of B136",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/B136/",
+    "line_count": "1442",
+    "execution_count": 6,
+    "keeper": "Linden Carmichael",
+    "id": 60000393,
+    "name": "BLM Cycle Plot"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Various functions for managing Booster 473 ramp cards.",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/Booster/BooRampUtil/",
+    "line_count": "2529",
+    "execution_count": 115,
+    "keeper": "Linden Carmichael",
+    "id": 60000394,
+    "name": "Booster 473 Ramp Utility"
+  },
+  {
+    "app_type": null,
+    "description": "Plot RF and Peak Diode Detector signals from IRMs",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000395,
+    "name": "Booster IRM Array Plotter"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Calculations and Plot of Booster Bucket Info",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/Booster/BucketCalcs/bucketcalcs/",
+    "line_count": "3043",
+    "execution_count": 3,
+    "keeper": "Yuri Ivanov",
+    "id": 60000396,
+    "name": "Booster Bucket Calculations"
+  },
+  {
+    "app_type": null,
+    "description": "Simulate NTF Beam Data.",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000397,
+    "name": "NTF Upgrade Test"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Displays Linac Alarms",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/AlarmsApp/",
+    "line_count": "1730",
+    "execution_count": null,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000398,
+    "name": "Linac Alarm Window"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Scope traces of Source",
+    "reference": "/usr/local/dae/gov/fnal/controls/fe/irm/FastTimePlot/",
+    "line_count": "19498",
+    "execution_count": 1,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000399,
+    "name": "Source Scope"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Access internals for Linac BPM electronics (2012)",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/LinacBPM/",
+    "line_count": "3366",
+    "execution_count": 40,
     "keeper": "Elliott McCrory",
-    "reference": "gov.fnal.controls.applications.LinacBPM.expert.AllReadingsPanel",
-    "execution_count": 6
+    "id": 60000400,
+    "name": "Linac BPM Expert"
   },
   {
-    "id": 60000445,
-    "name": "Main Injector Aperture Scan",
-    "description": "Used to scan MI8, MI, and RR apertures",
     "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/LinacBPM/",
+    "line_count": "3366",
+    "execution_count": null,
+    "keeper": "Elliott McCrory",
+    "id": 60000401,
+    "name": "Linac BPM Simple Display"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Control for the Linac BPM mulitplex waveform channels",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/LinacBPM/expert/",
+    "line_count": "6210",
+    "execution_count": null,
+    "keeper": "Elliott McCrory",
+    "id": 60000402,
+    "name": "Linac BPM Multiplexed Waveforms"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Summarizes the status of all the Lianac BPM modules",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/LinacBPM/expert/",
+    "line_count": "6210",
+    "execution_count": null,
+    "keeper": "Elliott McCrory",
+    "id": 60000403,
+    "name": "Linac BPM Expert Summary"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Control and display the Synchronous DAQ Waveforms for the Linac BPMs",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/LinacBPM/",
+    "line_count": "3366",
+    "execution_count": 9,
+    "keeper": "Elliott McCrory",
+    "id": 60000404,
+    "name": "Linac BPM Sync DAQ"
+  },
+  {
+    "app_type": null,
+    "description": "Test the Application Framework with a Dmq Connection",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000405,
+    "name": "Framework Dmq Test"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Application Framework Test with Dmq",
+    "reference": "/usr/local/dae/gov/fnal/controls/framework/examples/",
+    "line_count": "1000",
+    "execution_count": null,
+    "keeper": "James Patrick",
+    "id": 60000406,
+    "name": "Framework Dmq Test"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Profile monitor image acquisition and analysis",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/ASTACameras/",
+    "line_count": "17547",
+    "execution_count": 15,
+    "keeper": "John Diamond",
+    "id": 60000407,
+    "name": "Image Tool"
+  },
+  {
+    "app_type": null,
+    "description": "read MISWIC data and send to multiple receiver to calculate",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000408,
+    "name": "MISWIC Dispatcher"
+  },
+  {
+    "app_type": null,
+    "description": "receive data from dispatcher and calculate",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000409,
+    "name": "MISWIC Calculator"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Shows the control registers for all the Linac BPM modules",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/LinacBPM/expert/",
+    "line_count": "6210",
+    "execution_count": 91,
+    "keeper": "Elliott McCrory",
+    "id": 60000410,
+    "name": "Linac BPM Expert Overview"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Application interface to Acl Server (OAC )",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/aclviewer/",
+    "line_count": "1139",
+    "execution_count": 10,
+    "keeper": "Linden Carmichael",
+    "id": 60000411,
+    "name": "Acl Viewer"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Viewer for Booster aperture scans taken with B75",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/Booster/BooApScanViewer/",
+    "line_count": "3274",
+    "execution_count": 1,
+    "keeper": "Yuri Ivanov",
+    "id": 60000412,
+    "name": "Booster Aperture Scan Viewer"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "ASTA emittance calculator",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/ASTAEmittanceCalc/",
+    "line_count": "2797",
+    "execution_count": 1,
+    "keeper": "John Diamond",
+    "id": 60000413,
+    "name": "Emittance Tool"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Plot Array Devices using DMQ and JDataViewer",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/Booster/ArrayDevicePlotter/",
+    "line_count": "3229",
+    "execution_count": 6,
+    "keeper": "Linden Carmichael",
+    "id": 60000414,
+    "name": "Array Device Plotter"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Virtual Christmas tree for monitoring intensity.",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/ChristmasIntensityTree/",
+    "line_count": "996",
+    "execution_count": 45,
     "keeper": "Kyle Hazelwood",
-    "reference": "gov.fnal.controls.applications.MainInjectorApertureScan.MainInjectorApertureScan",
-    "execution_count": null
+    "id": 60000415,
+    "name": "Christmas Intensity Tree"
   },
   {
-    "id": 60000446,
-    "name": "PXIE Time Based Scan",
+    "app_type": "JWS-AUTO",
+    "description": "Program to measure differences in MI batch arrival times.",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/MainInjectorBatchDelta/",
+    "line_count": "2055",
+    "execution_count": 1,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000416,
+    "name": "Main Injector Batch Delta"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Generic array device plotter. Accepts command line arguments.",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/ArrayPlotter/",
+    "line_count": "2715",
+    "execution_count": 7,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000417,
+    "name": "Array Plotter"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Linac device Scan",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/LinacDeviceScan/",
+    "line_count": "5498",
+    "execution_count": 24,
+    "keeper": "Linden Carmichael",
+    "id": 60000418,
+    "name": "Linac Device Scan"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "PXIE Beam Size Scan Application",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/CMTFBeamSize/",
+    "line_count": "7747",
+    "execution_count": 1,
+    "keeper": "Linden Carmichael",
+    "id": 60000419,
+    "name": "PXIE Beam Size Scan Application"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Live rack monitor alarms screen and alarms logger.",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/RackMonitorAlarms/",
+    "line_count": "2292",
+    "execution_count": 54,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000420,
+    "name": "Rack Monitor Alarms"
+  },
+  {
+    "app_type": null,
+    "description": "Create, Edit, Save and Send Booster Tune Bumps",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000421,
+    "name": "Booster Tune Bump Editor"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "PXIE Scraper Scan Application",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/PXIEScraperScan/",
+    "line_count": "10614",
+    "execution_count": 69,
+    "keeper": "Linden Carmichael",
+    "id": 60000422,
+    "name": "PXIEScraperScan"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Booster Magnetic Cogging Control",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/Booster/MCogControl/",
+    "line_count": "681",
+    "execution_count": null,
+    "keeper": "Linden Carmichael",
+    "id": 60000423,
+    "name": "Booster Magnetic Cogging Control"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "A hex view of the MPS registers and Trip Log",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/astamps/registers/",
+    "line_count": "1612",
+    "execution_count": 3,
+    "keeper": "Linden Carmichael",
+    "id": 60000424,
+    "name": "MPS Registers"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "generate plot on BCC data",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/BsscPlotEditor/",
+    "line_count": "3736",
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 60000425,
+    "name": "BccPlotEditor"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "DDS Curve Manager",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/BoosterDDSCurves/",
+    "line_count": "6181",
+    "execution_count": 268,
+    "keeper": "Brian Schupbach",
+    "id": 60000426,
+    "name": "BoosterDDSCurves"
+  },
+  {
+    "app_type": null,
+    "description": "DDS curve manager",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000427,
+    "name": "BoosterDDSCurves"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/MainInjectorBeamLossMonitoring/",
+    "line_count": "4779",
+    "execution_count": 478,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000428,
+    "name": "Main Injector Beam Loss Monitoring"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Java version of the famed Chips Auto Copy program",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/AutoCopy/",
+    "line_count": "1301",
+    "execution_count": null,
+    "keeper": "Chip Edstrom Jr.",
+    "id": 60000429,
+    "name": "AutoCopy"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "AD/Main Injector department Data Aquistion Logging Engine client",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/DALE/",
+    "line_count": "2412",
+    "execution_count": 113,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000430,
+    "name": "DALE"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "PXIE Timing Plot",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/PXIETiming/",
+    "line_count": "3784",
+    "execution_count": 1,
+    "keeper": "Linden Carmichael",
+    "id": 60000431,
+    "name": "PXIE Timing Plot"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "PXIE MEBT Beam Energy",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/PXIERFQMEBTBeamEnergy/",
+    "line_count": "8864",
+    "execution_count": 1,
+    "keeper": "Linden Carmichael",
+    "id": 60000432,
+    "name": "PXIE MEBT Beam Energy"
+  },
+  {
+    "app_type": null,
+    "description": "Test Links from Frame",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000433,
+    "name": "LinkFromFrame"
+  },
+  {
+    "app_type": null,
+    "description": "Test launching of Desktop browser",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000434,
+    "name": "TestFrameLinks"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Test the launching of the java desktop browser",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/tlg/",
+    "line_count": "292",
+    "execution_count": null,
+    "keeper": "Linden Carmichael",
+    "id": 60000435,
+    "name": "TestBrowser"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Test the launching of the java desktop browser",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/tlg/",
+    "line_count": "292",
+    "execution_count": 5,
+    "keeper": "Linden Carmichael",
+    "id": 60000436,
+    "name": "TestControlsBrowser"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "PXIE Quad Emittance Scan",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/PXIEQuadEmittanceScan/",
+    "line_count": "10784",
+    "execution_count": 2,
+    "keeper": "Linden Carmichael",
+    "id": 60000437,
+    "name": "PXIE Quad Emittance Scan"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "PXIE Scraper Scan Read",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/PXIEScraperScanRead/",
+    "line_count": "4958",
+    "execution_count": null,
+    "keeper": "Linden Carmichael",
+    "id": 60000438,
+    "name": "PXIE Scraper Scan Read"
+  },
+  {
+    "app_type": null,
+    "description": "Delivery Ring VSA application",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000439,
+    "name": "drvsaapp"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Delivery Ring VSA waveform Plotter",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/drvsaapp/",
+    "line_count": "451",
+    "execution_count": 17,
+    "keeper": "James Patrick",
+    "id": 60000440,
+    "name": "Delivery Ring VSA"
+  },
+  {
+    "app_type": null,
+    "description": "Differential Scans",
+    "reference": null,
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000441,
+    "name": "Differential Orbits"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "PXIE Cavity Phase Scan",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/PXIECavityPhase/",
+    "line_count": "9290",
+    "execution_count": 22,
+    "keeper": "Linden Carmichael",
+    "id": 60000442,
+    "name": "PXIE Cavity Phase Scan"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Client for MITUNE OAC.",
+    "reference": "/usr/local/dae/gov/fnal/controls/daq/oac/clients/mitune/Client/",
+    "line_count": "4598",
+    "execution_count": null,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000443,
+    "name": "MITUNE"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Show the readings from all of the 400 MeV BPMs, and their RMS values",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/LinacBPM/expert/",
+    "line_count": "6210",
+    "execution_count": 6,
+    "keeper": "Elliott McCrory",
+    "id": 60000444,
+    "name": "Linac BPM Readings Overview"
+  },
+  {
+    "app_type": "JWS-AUTO",
+    "description": "Used to scan MI8, MI, and RR apertures",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/MainInjectorApertureScan/",
+    "line_count": "2165",
+    "execution_count": null,
+    "keeper": "Kyle Hazelwood",
+    "id": 60000445,
+    "name": "Main Injector Aperture Scan"
+  },
+  {
+    "app_type": "JWS-AUTO",
     "description": "PXIE Time Based Scan",
-    "app_type": "JWS-AUTO",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/PXIEDeviceScanScheduler/",
+    "line_count": "6566",
+    "execution_count": 51,
     "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.PXIEDeviceScanScheduler.PXIEDeviceScanScheduler",
-    "execution_count": 51
+    "id": 60000446,
+    "name": "PXIE Time Based Scan"
   },
   {
+    "app_type": "JWS-AUTO",
+    "description": "",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/settingstester/",
+    "line_count": "1555",
+    "execution_count": 3,
+    "keeper": "Linden Carmichael",
     "id": 60000447,
-    "name": "Settings Tester",
-    "description": "",
-    "app_type": "JWS-AUTO",
-    "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.settingstester.SettingsTester",
-    "execution_count": 3
+    "name": "Settings Tester"
   },
   {
-    "id": 60000448,
-    "name": "RF Status Log",
+    "app_type": "HTML",
     "description": "web application used to monitor RF trip",
-    "app_type": "HTML",
-    "keeper": "Zongwei Yuan",
     "reference": "http://www-bd.fnal.gov/bcc/rfstatus.xhtml",
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 60000448,
+    "name": "RF Status Log"
   },
   {
-    "id": 60000449,
-    "name": "PXIE Beam Line Plotter",
+    "app_type": "JWS-AUTO",
     "description": "PXIE Beam Line Plotter",
-    "app_type": "JWS-AUTO",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/PXIEBeamLinePlotter/",
+    "line_count": "6171",
+    "execution_count": 6,
     "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.PXIEBeamLinePlotter.PXIEBeamLinePlotter",
-    "execution_count": 6
+    "id": 60000449,
+    "name": "PXIE Beam Line Plotter"
   },
   {
-    "id": 60000450,
-    "name": "RF Trip Log",
+    "app_type": "HTML",
     "description": "RF trip detail",
-    "app_type": "HTML",
-    "keeper": "Zongwei Yuan",
     "reference": "http://www-bd.fnal.gov/bcc/triplog.xhtml",
-    "execution_count": null
-  },
-  {
-    "id": 60000451,
-    "name": "Composite Device List",
-    "description": "Composite device detail list",
-    "app_type": "HTML",
+    "line_count": null,
+    "execution_count": null,
     "keeper": "Zongwei Yuan",
+    "id": 60000450,
+    "name": "RF Trip Log"
+  },
+  {
+    "app_type": "HTML",
+    "description": "Composite device detail list",
     "reference": "http://www-bd.fnal.gov/bcc/cdlist.xhtml",
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": "Zongwei Yuan",
+    "id": 60000451,
+    "name": "Composite Device List"
   },
   {
-    "id": 60000452,
-    "name": "PXIE Device Save",
+    "app_type": "JWS-AUTO",
     "description": "PXIE Device Save",
-    "app_type": "JWS-AUTO",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/PXIEDeviceSave/",
+    "line_count": "4103",
+    "execution_count": 11,
     "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.PXIEDeviceSave.PXIEDeviceSave",
-    "execution_count": 11
+    "id": 60000452,
+    "name": "PXIE Device Save"
   },
   {
-    "id": 60000453,
-    "name": "PXIE Device Set",
+    "app_type": "JWS-AUTO",
     "description": "PIP2IT Device Set Application",
-    "app_type": "JWS-AUTO",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/PXIEDeviceSet/",
+    "line_count": "3617",
+    "execution_count": null,
     "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.PXIEDeviceSet.PXIEDeviceSet",
-    "execution_count": null
+    "id": 60000453,
+    "name": "PXIE Device Set"
   },
   {
-    "id": 60000454,
-    "name": "PXIE Slit Scanner",
+    "app_type": "JWS-AUTO",
     "description": "PXIE Slit Scanner",
-    "app_type": "JWS-AUTO",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/PXIESlitScanner/",
+    "line_count": "14127",
+    "execution_count": 3,
     "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.PXIESlitScanner.PXIESlitScanner",
-    "execution_count": 3
+    "id": 60000454,
+    "name": "PXIE Slit Scanner"
   },
   {
-    "id": 60000455,
-    "name": "PXIE Differential Orbits",
+    "app_type": "JWS-AUTO",
     "description": "PXIE Differential Orbits",
-    "app_type": "JWS-AUTO",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/PXIEDifferential/",
+    "line_count": "6148",
+    "execution_count": null,
     "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.PXIEDifferential.PXIEDifferential",
-    "execution_count": null
+    "id": 60000455,
+    "name": "PXIE Differential Orbits"
   },
   {
-    "id": 60000456,
-    "name": "MPS Mode Configurations",
+    "app_type": "JWS-AUTO",
     "description": "Configure mappings from mode, configuration to channels",
-    "app_type": "JWS-AUTO",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/pip2mps/",
+    "line_count": "2934",
+    "execution_count": 6,
     "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.pip2mps.MpsStateConfiguration",
-    "execution_count": 6
+    "id": 60000456,
+    "name": "MPS Mode Configurations"
   },
   {
-    "id": 60000457,
-    "name": "PXIE Pulse Correlated Data Gatherer",
+    "app_type": "JWS-AUTO",
     "description": "PXIE Pulse Correlated Data Gatherer",
-    "app_type": "JWS-AUTO",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/PXIEPulseCorrelatedDataGatherer/",
+    "line_count": "3377",
+    "execution_count": 67,
     "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.PXIEPulseCorrelatedDataGatherer.PXIEPulseCorrelatedDataGatherer",
-    "execution_count": 67
+    "id": 60000457,
+    "name": "PXIE Pulse Correlated Data Gatherer"
   },
   {
-    "id": 60000458,
-    "name": "PXIE Wire Scan",
+    "app_type": "JWS-AUTO",
     "description": "PXIE Wire Scan",
-    "app_type": "JWS-AUTO",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/PXIEWireScan/",
+    "line_count": "8334",
+    "execution_count": 16,
     "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.PXIEWireScan.PXIEWireScan",
-    "execution_count": 16
+    "id": 60000458,
+    "name": "PXIE Wire Scan"
   },
   {
-    "id": 60000459,
-    "name": "Synoptic with DPM",
+    "app_type": null,
     "description": "Synoptic Viewer using DPM",
-    "app_type": null,
-    "keeper": null,
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000459,
+    "name": "Synoptic with DPM"
   },
   {
-    "id": 60000460,
-    "name": "SynopticTest",
+    "app_type": "JWS-AUTO",
     "description": "Synoptic display builder and Viewer",
-    "app_type": "JWS-AUTO",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/synoptix/",
+    "line_count": "276",
+    "execution_count": null,
     "keeper": "Linden Carmichael",
-    "reference": "gov.fnal.controls.applications.synoptix.Synoptic",
-    "execution_count": null
+    "id": 60000460,
+    "name": "SynopticTest"
   },
   {
-    "id": 60000461,
-    "name": "Complex Uptime Calculations",
+    "app_type": "JWS-AUTO",
     "description": "for NuMI, BNB, g-2 uptime",
-    "app_type": "JWS-AUTO",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/upTimeCalc/",
+    "line_count": "314",
+    "execution_count": 6,
     "keeper": "Paul Derwent",
-    "reference": "gov.fnal.controls.applications.upTimeCalc.upTimeCalc",
-    "execution_count": 6
+    "id": 60000461,
+    "name": "Complex Uptime Calculations"
   },
   {
-    "id": 60000463,
-    "name": "Complex UpTime",
+    "app_type": null,
     "description": "Uptime for NuMI BNB g-2",
-    "app_type": null,
-    "keeper": null,
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000463,
+    "name": "Complex UpTime"
   },
   {
-    "id": 60000496,
-    "name": "Acnet Alarms Realtime Client",
+    "app_type": null,
     "description": "",
-    "app_type": null,
-    "keeper": null,
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000496,
+    "name": "Acnet Alarms Realtime Client"
   },
   {
-    "id": 60000497,
-    "name": "Acnet Alarms Realtime Viewer",
+    "app_type": null,
     "description": "Display All Acnet Alarms as the arrive, with pop-up details",
-    "app_type": null,
-    "keeper": null,
     "reference": null,
-    "execution_count": null
+    "line_count": null,
+    "execution_count": null,
+    "keeper": null,
+    "id": 60000497,
+    "name": "Acnet Alarms Realtime Viewer"
   },
   {
-    "id": 60000498,
-    "name": "AcnetAlarmsClient",
-    "description": "AcnetAlarmsClient",
     "app_type": "JWS-AUTO",
+    "description": "AcnetAlarmsClient",
+    "reference": "/usr/local/dae/gov/fnal/controls/applications/AcnetAlarmsClient/",
+    "line_count": "281",
+    "execution_count": 15,
     "keeper": "William Badgett, Jr.",
-    "reference": "gov.fnal.controls.applications.AcnetAlarmsClient.AcnetAlarmsClient",
-    "execution_count": 15
+    "id": 60000498,
+    "name": "AcnetAlarmsClient"
   }
 ]
