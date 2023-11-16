@@ -1,0 +1,274 @@
+[
+  {
+    "program": "pa0004",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa0017",
+    "criticality": "core"
+  },
+  {
+    "program": "pa0052",
+    "criticality": "core"
+  },
+  {
+    "program": "pa0065",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa0067",
+    "criticality": "specialized"
+  },
+  {
+    "program": "pa0110",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa0393",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa0472",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa0659",
+    "criticality": "core"
+  },
+  {
+    "program": "pa0758",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1008",
+    "criticality": "core"
+  },
+  {
+    "program": "pa1028",
+    "criticality": "core"
+  },
+  {
+    "program": "pa1048",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1067",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1089",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1116",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1122",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1150",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1170",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1188",
+    "criticality": "core"
+  },
+  {
+    "program": "pa1308",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1394",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1401",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1412",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1414",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1438",
+    "criticality": "core"
+  },
+  {
+    "program": "pa1516",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1554",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1568",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1574",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1621",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1623",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1628",
+    "criticality": "core"
+  },
+  {
+    "program": "pa1640",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1653",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1665",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1666",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1677",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1692",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1723",
+    "criticality": "core"
+  },
+  {
+    "program": "pa1725",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1774",
+    "criticality": "core"
+  },
+  {
+    "program": "pa1790",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1823",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1860",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1909",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1921",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa1934",
+    "criticality": "specialized"
+  },
+  {
+    "program": "pa1956",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa2120",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa2122",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa4009",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa4029",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa4044",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa4056",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa4087",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa4150",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa4184",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa4187",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa4188",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa4208",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa4209",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa4223",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa4225",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa4231",
+    "criticality": "critical"
+  },
+  {
+    "program": "pa4291",
+    "criticality": "critical"
+  },
+  {
+    "program": "sa1002",
+    "criticality": "core"
+  },
+  {
+    "program": "sa1003",
+    "criticality": "core"
+  }
+]
