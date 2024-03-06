@@ -117,218 +117,117 @@
   {
     "program":"pa1438",
     "description":"Beam budget monitor (BBM) PA",
-    "index_page":[
-      "D105"
-    ],
-    "criticality":"core"
+    "pretty_name":"Beam limit monitor"
   },
   {
     "program":"pa1516",
     "description":"Lumberjack plotter",
-    "index_page":[
-      "D44"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Historical plotting"
   },
   {
     "program":"pa1554",
     "description":"Console Interface to Save\/Compare\/Restore system",
-    "index_page":[
-      "D1"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Global save and restore interface"
   },
   {
     "program":"pa1568",
     "description":"MR RTD720 2Gs\/S digitizer utility program",
-    "index_page":[
-      "R86",
-      "R87",
-      "I86",
-      "B62",
-      "I85"
-    ],
-    "criticality":"critical"
+    "pretty_name":"High data rate physics analysis" 
   },
   {
     "program":"pa1574",
     "description":"BPM TBT data analysis",
-    "index_page":[
-      "I92",
-      "R92"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Beam Position analysis tool"
   },
   {
     "program":"pa1621",
     "description":"Tune measurement from TBT BPM data",
-    "index_page":[
-      "I42",
-      "R42"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Beam tune measurement analysis"
   },
   {
     "program":"pa1623",
     "description":"ACNET Node Information View and Edit",
-    "index_page":[
-      "D98"
-    ],
-    "criticality":"critical"
+    "pretty_name":"ACNET node information editor"
   },
   {
     "program":"pa1628",
     "description":"This program displays abort module status.",
-    "index_page":[
-      "E29",
-      "E39",
-      "I67",
-      "R67",
-      "S68",
-      "M67",
-      "P67"
-    ],
-    "criticality":"core"
+    "pretty_name":"Beamline abort modules status"
   },
   {
     "program":"pa1640",
     "description":"multiwire chamber display and control",
-    "index_page":[
-      "B41",
-      "E26",
-      "E41",
-      "I41",
-      "S45",
-      "E57",
-      "L18",
-      "S44",
-      "S39",
-      "M71"
-    ],
-    "criticality":"critical"
+    "pretty_name":"multiwire display and control"
   },
   {
     "program":"pa1653",
     "description":"Accelerator Vacuum",
-    "index_page":[
-      "E28",
-      "E45",
-      "E51",
-      "I55",
-      "R55",
-      "S50",
-      "T18",
-      "N69",
-      "M18"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Vacuum status and control"
   },
   {
     "program":"pa1665",
     "description":"Main Injector MECAR Program",
-    "index_page":[
-      "I2"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Main Injector ramp configuration"
   },
   {
     "program":"pa1666",
     "description":"Main Injector Orbit Correction",
-    "index_page":[
-      "I50"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Main Injector orbit correction"
   },
   {
     "program":"pa1677",
     "description":"Main Injector RF control",
-    "index_page":[
-      "I3"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Main Injector RF status and control"
   },
   {
     "program":"pa1692",
     "description":"Camac Link Status",
-    "index_page":[
-      "D20",
-      "H2"
-    ],
-    "criticality":"critical"
+    "pretty_name":"CAMAC link status"
   },
   {
     "program":"pa1723",
     "description":"TLG Test Phase II (Multiple FSMs)",
-    "index_page":[
-      "D69",
-      "S31"
-    ],
-    "criticality":"core"
+    "pretty_name":"Clock configuration"
   },
   {
     "program":"pa1725",
     "description":"Main Injector quad move program",
-    "index_page":[
-      "I75"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Main Injector quadropole position calculation"
   },
   {
     "program":"pa1790",
     "description":"Builds waveforms for transfer line power supplies",
-    "index_page":[
-      "I68",
-      "S13"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Beamline power supply ramp generator"
   },
   {
     "program":"pa1823",
     "description":"LLRF Control Page",
-    "index_page":[
-      "W8",
-      "R6"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Recycler LLRF control"
   },
   {
     "program":"pa1860",
     "description":"The Console Interface To The TLG F\/E.",
-    "index_page":[
-      "W29"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Test clock configuration"
   },
   {
     "program":"pa1909",
     "description":"Camac 204 Interface",
-    "index_page":[
-      "E33",
-      "E40",
-      "I69",
-      "M68"
-    ],
-    "criticality":"critical"
+    "pretty_name":"CAMAC C204 abort interface"
   },
   {
     "program":"pa1921",
     "description":"Setting Server Browser\/Peeker",
-    "index_page":[
-      "D54"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Setting History Viewer"
   },
   {
     "program":"pa1934",
     "description":"Booster Performance",
-    "index_page":[
-      "B87"
-    ],
-    "criticality":"specialized"
+    "pretty_name":"Booster efficiency plots"
   },
   {
     "program":"pa1956",
     "description":"This program lists and plots array device values.",
+    "pretty_name":"" // TODO 
     "index_page":[
       "B54",
       "D27"
@@ -338,31 +237,22 @@
   {
     "program":"pa2120",
     "description":"Main Injector Bpm States Controller",
-    "index_page":[
-      "I44",
-      "W14"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Main Injector BPM trigger and timing configuration"
   },
   {
     "program":"pa2122",
     "description":"MI BPM Diagnostic Application",
-    "index_page":[
-      "I43"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Main Injector BPM diagnostics"
   },
   {
     "program":"pa4009",
     "description":"MI BLM display and ...",
-    "index_page":[
-      "I38"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Main Injector BLM display"
   },
   {
     "program":"pa4029",
     "description":"Plots Main Injector losses (using root)",
+    "pretty_name":"" // TODO
     "index_page":[
       "I124"
     ],
@@ -371,14 +261,12 @@
   {
     "program":"pa4044",
     "description":"MI BPM test",
-    "index_page":[
-      "I37"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Main Injector BPM testing"
   },
   {
     "program":"pa4056",
     "description":"TCPORT test client",
+    "pretty_name":"" // TODO 
     "index_page":[
       "D131"
     ],
@@ -387,30 +275,17 @@
   {
     "program":"pa4087",
     "description":"Alarm List\/Control",
-    "index_page":[
-      "W58",
-      "D59",
-      "D67"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Alarm grouping and configuration"
   },
   {
     "program":"pa4150",
     "description":" displaying\/processing",
-    "index_page":[
-      "D25",
-      "T69"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Power supply transient Recorder"
   },
   {
     "program":"pa4184",
     "description":"status and control for Main Injector HLRF",
-    "index_page":[
-      "W36",
-      "I25"
-    ],
-    "criticality":"critical"
+    "pretty_name":"Main Injector RF status and control"
   },
   {
     "program":"pa4187",
