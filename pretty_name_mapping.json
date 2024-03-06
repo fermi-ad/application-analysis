@@ -1,0 +1,494 @@
+[
+  {
+    "program":"pa0004",
+    "description":"Graphics test program",
+    "pretty_name":"GUI design and development diagnostic"
+  },
+  {
+    "program":"pa0065",
+    "description":"Main Injector timing",
+    "pretty_name":"Main Injector timing control"
+  },
+  {
+    "program":"pa0067",
+    "description":"This program displays and controls TCLK events.",
+    "pretty_name":"TCLK event display and control"
+  },
+  {
+    "program":"pa0110",
+    "description":"Generic Digital Status and Control",
+    "pretty_name":"Digital Status display and control"
+  },
+  {
+    "program":"pa0393",
+    "description":"C177 timer control program",
+    "pretty_name":"CAMAC C177 timer control"
+  },
+  {
+    "program":"pa0472",
+    "description":"Booster RF Status\/Control - IRM",
+    "pretty_name":"Booster RF display and control"
+  },
+  {
+    "program":"pa0659",
+    "description":"This is the Lexidata image editor program (Lex Draw).",
+    "pretty_name":"GUI application image editor"
+  },
+  {
+    "program":"pa0758",
+    "description":"Lumberjack Logger List Control",
+    "pretty_name":"Data logger configuration"
+  },
+  {
+    "program":"pa1008",
+    "description":"Dump device database information program",
+    "pretty_name":"Device database display and configuration"
+  },
+  {
+    "program":"pa1028",
+    "description":"Sequencer of accelerator operations",
+    "pretty_name":"Sequencer"
+  },
+  {
+    "program":"pa1048",
+    "description":"BPM\/BLM Control and Display Program",
+    "pretty_name":"BPM and BLM display and control"
+  },
+  {
+    "program":"pa1067",
+    "description":"Main Injector corrector tracking check",
+    "pretty_name":"Main Injector corrector tracking checker"
+  },
+  {
+    "program":"pa1089",
+    "description":"Continuous poll of all ACNET nodes",
+    "pretty_name":"ACNET node polling diagnostic"
+  },
+  {
+    "program":"pa1116",
+    "description":"ACNET Level II Exerciser",
+    "pretty_name":"ACNET protocol diagnostic"
+  },
+  {
+    "program":"pa1122",
+    "description":"CLIB and process data network peeker program.",
+    "pretty_name":"User application metrics and diagnostic"
+  },
+  {
+    "program":"pa1150",
+    "description":"Clockscope",
+    "pretty_name":"Clock display"
+  },
+  {
+    "program":"pa1170",
+    "description":"8-GeV Beam Line Loss Monitor display",
+    "pretty_name":"MI8 BLM display"
+  },
+  {
+    "program":"pa1188",
+    "description":"telephone index",
+    "pretty_name":"Telephone index"
+  },
+  {
+    "program":"pa1308",
+    "description":"Manage device download lists for frig, BPM, and MECAR",
+    "pretty_name":"Frontend device property download configuration"
+  },
+  {
+    "program":"pa1394",
+    "description":"OAC registration",
+    "pretty_name":"OAC node configuration"
+  },
+  {
+    "program":"pa1401",
+    "description":"States Devices Diagnostics",
+    "pretty_name":"State device configuration and diagnostic"
+  },
+  {
+    "program":"pa1412",
+    "description":"heartbeat registration table control",
+    "pretty_name":"Heartbeat configuration and diagnostic"
+  },
+  {
+    "program":"pa1414",
+    "description":"An application to interface with open access front ends.",
+    "pretty_name":"Node Redirection control"
+  },
+  {
+    "program":"pa1438",
+    "description":"Beam budget monitor (BBM) PA",
+    "index_page":[
+      "D105"
+    ],
+    "criticality":"core"
+  },
+  {
+    "program":"pa1516",
+    "description":"Lumberjack plotter",
+    "index_page":[
+      "D44"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa1554",
+    "description":"Console Interface to Save\/Compare\/Restore system",
+    "index_page":[
+      "D1"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa1568",
+    "description":"MR RTD720 2Gs\/S digitizer utility program",
+    "index_page":[
+      "R86",
+      "R87",
+      "I86",
+      "B62",
+      "I85"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa1574",
+    "description":"BPM TBT data analysis",
+    "index_page":[
+      "I92",
+      "R92"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa1621",
+    "description":"Tune measurement from TBT BPM data",
+    "index_page":[
+      "I42",
+      "R42"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa1623",
+    "description":"ACNET Node Information View and Edit",
+    "index_page":[
+      "D98"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa1628",
+    "description":"This program displays abort module status.",
+    "index_page":[
+      "E29",
+      "E39",
+      "I67",
+      "R67",
+      "S68",
+      "M67",
+      "P67"
+    ],
+    "criticality":"core"
+  },
+  {
+    "program":"pa1640",
+    "description":"multiwire chamber display and control",
+    "index_page":[
+      "B41",
+      "E26",
+      "E41",
+      "I41",
+      "S45",
+      "E57",
+      "L18",
+      "S44",
+      "S39",
+      "M71"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa1653",
+    "description":"Accelerator Vacuum",
+    "index_page":[
+      "E28",
+      "E45",
+      "E51",
+      "I55",
+      "R55",
+      "S50",
+      "T18",
+      "N69",
+      "M18"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa1665",
+    "description":"Main Injector MECAR Program",
+    "index_page":[
+      "I2"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa1666",
+    "description":"Main Injector Orbit Correction",
+    "index_page":[
+      "I50"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa1677",
+    "description":"Main Injector RF control",
+    "index_page":[
+      "I3"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa1692",
+    "description":"Camac Link Status",
+    "index_page":[
+      "D20",
+      "H2"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa1723",
+    "description":"TLG Test Phase II (Multiple FSMs)",
+    "index_page":[
+      "D69",
+      "S31"
+    ],
+    "criticality":"core"
+  },
+  {
+    "program":"pa1725",
+    "description":"Main Injector quad move program",
+    "index_page":[
+      "I75"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa1790",
+    "description":"Builds waveforms for transfer line power supplies",
+    "index_page":[
+      "I68",
+      "S13"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa1823",
+    "description":"LLRF Control Page",
+    "index_page":[
+      "W8",
+      "R6"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa1860",
+    "description":"The Console Interface To The TLG F\/E.",
+    "index_page":[
+      "W29"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa1909",
+    "description":"Camac 204 Interface",
+    "index_page":[
+      "E33",
+      "E40",
+      "I69",
+      "M68"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa1921",
+    "description":"Setting Server Browser\/Peeker",
+    "index_page":[
+      "D54"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa1934",
+    "description":"Booster Performance",
+    "index_page":[
+      "B87"
+    ],
+    "criticality":"specialized"
+  },
+  {
+    "program":"pa1956",
+    "description":"This program lists and plots array device values.",
+    "index_page":[
+      "B54",
+      "D27"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa2120",
+    "description":"Main Injector Bpm States Controller",
+    "index_page":[
+      "I44",
+      "W14"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa2122",
+    "description":"MI BPM Diagnostic Application",
+    "index_page":[
+      "I43"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa4009",
+    "description":"MI BLM display and ...",
+    "index_page":[
+      "I38"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa4029",
+    "description":"Plots Main Injector losses (using root)",
+    "index_page":[
+      "I124"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa4044",
+    "description":"MI BPM test",
+    "index_page":[
+      "I37"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa4056",
+    "description":"TCPORT test client",
+    "index_page":[
+      "D131"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa4087",
+    "description":"Alarm List\/Control",
+    "index_page":[
+      "W58",
+      "D59",
+      "D67"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa4150",
+    "description":" displaying\/processing",
+    "index_page":[
+      "D25",
+      "T69"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa4184",
+    "description":"status and control for Main Injector HLRF",
+    "index_page":[
+      "W36",
+      "I25"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa4187",
+    "description":"Bo->RR Inj Closure",
+    "index_page":[
+      "R52",
+      "I52"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa4188",
+    "description":"SCL Linac status and control",
+    "index_page":[
+      "L27"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa4208",
+    "description":"RR Tune Control",
+    "index_page":[
+      "W92",
+      "R2"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa4209",
+    "description":"Recycler Damper Phaser Program",
+    "index_page":[
+      "W120",
+      "R120"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa4223",
+    "description":"Recycler RF Status And Control Page",
+    "index_page":[
+      "R25"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa4225",
+    "description":"Recycler RF control",
+    "index_page":[
+      "R3"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa4231",
+    "description":"This is a BPM diagnostic application.",
+    "index_page":[
+      "R43"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"pa4291",
+    "description":"Marx Modulator Status and Control",
+    "index_page":[
+      "L28"
+    ],
+    "criticality":"critical"
+  },
+  {
+    "program":"sa1002",
+    "description":"Fast Time Plot SA",
+    "index_page":null,
+    "criticality":"core"
+  },
+  {
+    "program":"sa1003",
+    "description":"Snapshot plot SA",
+    "index_page":null,
+    "criticality":"core"
+  }
+]
